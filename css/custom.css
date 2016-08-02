@@ -14,3 +14,29 @@ body {
 	font-size: 2em;
 	text-align: center;
 }
+
+.owl-carousel .item-video {
+	height:300px;
+}
+
+iframe {
+	width: 96%;
+	height: 24em;
+}
+
+/*.owl-carousel .fixed-video-aspect {
+  position: relative;
+}
+.owl-carousel .fixed-video-aspect:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 56.25%;
+}
+.owl-carousel .fixed-video-aspect > .item-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}*/

@@ -6,21 +6,16 @@
 
 $(function() {	  
  	$("#owl-demo").owlCarousel({		
-		 navigation : true,
-		// items: 1,
+		navigation : true,
+		items: 1,
+		loop: true,
+		// dots: false,
 		// slideSpeed : 300,
 		// paginationSpeed : 400,
 		// autoPlay : false,
 		// singleItem: true,
 		video: true,
-		responsive:{
-      480:{
-        items:2
-      },
-      600:{
-        items:4
-      }
-    }
+		center: true	
  	});
 
  $("#owl-demo2").owlCarousel({
@@ -30,4 +25,5 @@ $(function() {
 	navigation : true,
 	pagination : false
  });
+
 });
