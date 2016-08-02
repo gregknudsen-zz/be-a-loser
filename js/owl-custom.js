@@ -7,7 +7,7 @@
 $(function() {	  
  	$("#owl-demo").owlCarousel({		
 		navigation : true,
-		items: 1,
+		items: 2,
 		loop: true,
 		// dots: false,
 		// slideSpeed : 300,

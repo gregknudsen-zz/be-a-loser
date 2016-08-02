@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en-US">
    <head>
       <meta charset="UTF-8">
@@ -15,54 +14,19 @@
       <script type="text/javascript" src="js/modernizr.js"></script>
       <script type="text/javascript" src="js/responsee.js"></script>
       <!--[if lt IE 9]>
-	      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
       <![endif]-->
    </head>
    <body class="size-960">
       <!-- HEADER -->
-      
-         <!-- TOP NAV -->  
-         <div class="line">
-            <nav class="margin-bottom">
-               <p class="nav-text">Menu</p>
-               <div class="top-nav s-12 l-10">
-                  <ul>
-                     <li><a>Home</a></li>
-                     <li>
-                        <a>Rocemmended Reading</a>
-                        <ul>
-                           <li><a>Intermittent Fasting</a></li>
-                           <li><a>Low Carb, High Fat</a></li>
-                        </ul>
-                     </li>
-                     <li>
-                        <a>Recipes</a>
-                     </li>
-                     <li><a>Contact</a></li>
-                  </ul>
-               </div>
-               <div class="hide-s hide-m l-2">
-                  <i class="icon-facebook_circle icon2x right padding"></i>
-                  <!-- <img class="right" src="img/Loser-Youtube.jpg" alt=""> -->
-               </div>
-            </nav>
-         </div>
-      </header>
+      <?php include "includes/header.php"; ?>
+       
+      <!-- TOP NAV -->  
+      <?php include "includes/navigation.php"; ?>      
       <section>
          <!-- CAROUSEL -->  
-         <div class="line">
-            <div id="owl-demo" class="owl-carousel">
-                  <div class="item" data-merge="1">
-                     <iframe class="center" height="300" src="https://www.youtube.com/embed/7EbAdnbwh94" frameborder="0" allowfullscreen></iframe>
-                  </div>
-               <div class="item-video" data-merge="3">
-                     <iframe class="center" src="https://www.youtube.com/embed/7EbAdnbwh94" frameborder="0" allowfullscreen></iframe>
-               </div>
-              <!--  <div class="item"><img src="img/runner1-940x380.jpg" alt=""></div>
-               <div class="item"><img src="img/work-with-us.jpg" alt=""></div> -->
-            </div>
-         </div>
+      <?php include "includes/carousel.php"; ?>
          <!-- HOME PAGE BLOCK -->      
          <div class="line">
             <div class="margin">
@@ -150,7 +114,7 @@
          <div class="line">
             <h2>Gallery</h2>
             <div id="owl-demo2" class="owl-carousel margin-bottom">
-               <div class="item"><iframe width="100%" height="190" src="https://www.youtube.com/embed/7EbAdnbwh94?autoplay=1" frameborder="0" allowfullscreen></iframe></div>
+               <div class="item"><iframe width="100%" height="190" src="https://www.youtube.com/embed/7EbAdnbwh94" frameborder="0" allowfullscreen></iframe></div>
                <!-- <div class="item"><img class="lazyOwl" data-src="img/330x190-2.jpg" alt=""></div>
                <div class="item"><img class="lazyOwl" data-src="img/330x190-3.jpg" alt=""></div>
                <div class="item"><img class="lazyOwl" data-src="img/330x190.jpg" alt=""></div>
@@ -180,3 +144,4 @@
       
    </body>
 </html>
+?>
