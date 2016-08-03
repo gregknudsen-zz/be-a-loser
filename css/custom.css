@@ -15,8 +15,8 @@ body {
 }
 
 .owl-carousel .item-video {
-	height:300px;
-	margin-bottom: 2em;
+	height:320px;
+	// margin-bottom: 2em;
 }
 
 iframe {

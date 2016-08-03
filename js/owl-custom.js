@@ -8,20 +8,17 @@ $(function() {
  	$("#owl-demo").owlCarousel({		
 		navigation : true,
 		items: 1,
-		// loop: true,
+		//loop: true,
 		dots: true,
 		// slideSpeed : 300,
 		// paginationSpeed : 400,
-		// autoPlay : false,
+		autoPlay : true,
 		// singleItem: true,
 		video: true,
-		center: true,
+		//center: true,
 		responsive:{
             480:{
                 items:2
-            },
-            600:{
-                items:4
             }
         }	
  	});

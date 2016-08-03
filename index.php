@@ -7,7 +7,7 @@
       <link rel="stylesheet" href="css/responsee.css">
       <link rel="stylesheet" href="owl-carousel/assets/owl.carousel.css">
       <link rel="stylesheet" href="owl-carousel/assets/owl.theme.default.min.css">
-      <link rel="stylesheet" href="css/custom.scss">
+      <link rel="stylesheet" href="css/custom.css">
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
       <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
       <script type="text/javascript" src="js/jquery-ui.min.js"></script>    
