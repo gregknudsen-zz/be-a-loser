@@ -24,6 +24,11 @@ p {
 
 #header {
 	background: #FFEEDB;
+	border-radius: 1em 1em 0 0;
+}
+
+nav {
+	border-radius: 0 0 1em 1em;
 }
 
 #title {
@@ -33,7 +38,10 @@ p {
 
 .owl-carousel .item-video {
 	height:320px;
-	// margin-bottom: 2em;
+}
+
+.owl-carousel .owl-video-wrapper, .box {
+	border-radius: 1em;
 }
 
 
