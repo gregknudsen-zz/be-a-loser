@@ -110,23 +110,7 @@
                </div>
             </div>
          </div>
-         <!-- GALLERY CAROUSEL -->
-         <div class="line">
-            <h2>Gallery</h2>
-            <div id="owl-demo2" class="owl-carousel margin-bottom">
-               <div class="item"><iframe width="100%" height="190" src="https://www.youtube.com/embed/7EbAdnbwh94" frameborder="0" allowfullscreen></iframe></div>
-               <!-- <div class="item"><img class="lazyOwl" data-src="img/330x190-2.jpg" alt=""></div>
-               <div class="item"><img class="lazyOwl" data-src="img/330x190-3.jpg" alt=""></div>
-               <div class="item"><img class="lazyOwl" data-src="img/330x190.jpg" alt=""></div>
-               <div class="item"><img class="lazyOwl" data-src="img/330x190-2.jpg" alt=""></div>
-               <div class="item"><img class="lazyOwl" data-src="img/330x190-3.jpg" alt=""></div>
-               <div class="item"><img class="lazyOwl" data-src="img/330x190.jpg" alt=""></div>
-               <div class="item"><img class="lazyOwl" data-src="img/330x190-2.jpg" alt=""></div>
-               <div class="item"><img class="lazyOwl" data-src="img/330x190-3.jpg" alt=""></div> -->
-               
-            </div>
-         </div>
-      </section>
+        
       <!-- FOOTER -->
       <footer class="line">
          <div class="box">
