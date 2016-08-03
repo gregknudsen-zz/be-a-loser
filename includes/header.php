@@ -1,8 +1,8 @@
 <header>
    <div class="line">
-      <div class="box">
+      <div id="header" class="box">
          <div class="s-6 l-2">
-            <img src="img/logo2.png">
+            <img id="el-boy" src="img/logo2.png">
          </div>
          <div id="title">
             <h1>Be A Loser</h1>
