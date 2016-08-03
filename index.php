@@ -5,9 +5,9 @@
       <title>Be A Loser</title>
       <link rel="stylesheet" href="css/components.css">
       <link rel="stylesheet" href="css/responsee.css">
-      <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
-      <link rel="stylesheet" href="owl-carousel/owl.theme.css">
-      <link rel="stylesheet" href="css/custom.css">
+      <link rel="stylesheet" href="owl-carousel/assets/owl.carousel.css">
+      <link rel="stylesheet" href="owl-carousel/assets/owl.theme.default.min.css">
+      <link rel="stylesheet" href="css/custom.scss">
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
       <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
       <script type="text/javascript" src="js/jquery-ui.min.js"></script>    
@@ -30,7 +30,7 @@
          <!-- HOME PAGE BLOCK -->      
          <div class="line">
             <div class="margin">
-               <div class="s-12 m-6 l-4 margin-bottom">
+               <div class="s-12 margin-bottom">
                   <div class="box">
                      <h2>About</h2>
                      <p>
@@ -43,7 +43,7 @@
                      </p>
                   </div>
                </div>
-               <div class="s-12 m-6 l-4 margin-bottom">
+               <!-- <div class="s-12 m-6 l-4 margin-bottom">
                   <div class="box">
                      <h2>Company</h2>
                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
@@ -55,7 +55,7 @@
                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                   </div>
                </div>
-            </div>
+            </div> -->
          </div>
          <!-- ASIDE NAV AND CONTENT -->
          <div class="line">
@@ -144,4 +144,3 @@
       
    </body>
 </html>
-?>

@@ -7,15 +7,23 @@
 $(function() {	  
  	$("#owl-demo").owlCarousel({		
 		navigation : true,
-		items: 2,
-		loop: true,
-		// dots: false,
+		items: 1,
+		// loop: true,
+		dots: true,
 		// slideSpeed : 300,
 		// paginationSpeed : 400,
 		// autoPlay : false,
 		// singleItem: true,
 		video: true,
-		center: true	
+		center: true,
+		responsive:{
+            480:{
+                items:2
+            },
+            600:{
+                items:4
+            }
+        }	
  	});
 
  $("#owl-demo2").owlCarousel({

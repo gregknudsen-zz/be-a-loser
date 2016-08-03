@@ -1,7 +1,8 @@
 <div class="line">
             <div id="owl-demo" class="owl-carousel">
-                  <div class="item" data-merge="1">
-                     <iframe class="center" height="300" src="https://www.youtube.com/embed/7EbAdnbwh94" frameborder="1" allowfullscreen></iframe>
+                  <div class="item-video" data-merge="1">
+                     <a class="owl-video" href="https://www.youtube.com/embed/7EbAdnbwh94"></a>
+                     <!-- <iframe class="center" height="300" src="https://www.youtube.com/embed/7EbAdnbwh94" frameborder="1" allowfullscreen></iframe> -->
                   </div>
                <div class="item-video" data-merge="3">
                      <iframe class="center" src="https://www.youtube.com/embed/7EbAdnbwh94" frameborder="1" allowfullscreen></iframe>
