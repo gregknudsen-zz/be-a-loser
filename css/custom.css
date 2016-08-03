@@ -9,8 +9,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Bungee Shade'
 }
 
-p {
+p, nav, .aside-nav {
 	color: #633443;
+	font-family: 'Raleway';
 }
 
 #el-boy {
@@ -41,24 +42,9 @@ nav {
 }
 
 .owl-carousel .owl-video-wrapper, .box {
-	border-radius: 1em;
+	border-radius: 10px;
+	margin: 1px;
 }
 
 
 
-/*.owl-carousel .fixed-video-aspect {
-  position: relative;
-}
-.owl-carousel .fixed-video-aspect:before {
-  display: block;
-  content: "";
-  width: 100%;
-  padding-top: 56.25%;
-}
-.owl-carousel .fixed-video-aspect > .item-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}*/

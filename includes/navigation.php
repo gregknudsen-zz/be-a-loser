@@ -14,7 +14,7 @@
                      <li>
                         <a>Recipes</a>
                      </li>
-                     <li><a>Contact</a></li>
+                     <li><a href="https://www.youtube.com/channel/UCR2z_y7rQO3CMb3sQe9a48Q" target="_blank">YouTube Channel</a></li>
                   </ul>
                </div>
                <div class="hide-s hide-m l-2">
