@@ -1,0 +1,11 @@
+<footer class="line">
+   <div class="box">
+      <div class="s-12 l-6">
+         <p>Copyright 2016, Vision Design - graphic zoo</p>
+      </div>
+      <div class="s-12 l-6">
+         <a class="right" href="http://www.myresponsee.com" title="Responsee - lightweight responsive framework">Design and coding by Responsee Team</a><br>
+         <p class="right">Customization by <a id="dev-artist" href="">DevArtist</a></p>
+      </div>
+   </div>
+</footer>
