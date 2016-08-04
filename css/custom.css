@@ -37,6 +37,12 @@ nav {
 	text-align: center;
 }
 
+#youtube-nav {
+	color: red;
+	font-weight: bold;
+	text-shadow: 1px 1px #eff;
+}
+
 .owl-carousel .item-video {
 	height:320px;
 }
@@ -69,6 +75,14 @@ nav {
 .scrollable {
 	max-height: 300px;
   overflow-y: scroll;
+  background: #FFEEDB;
+  border-radius: 10px;
+  text-align: justify;
+  box-shadow: 3px 4px 10px #6C809A;
+}
+
+#fat-to-thin {
+	margin-top: 10%;
 }
 
 
