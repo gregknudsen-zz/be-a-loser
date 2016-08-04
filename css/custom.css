@@ -66,6 +66,11 @@ nav {
     opacity: 1;
 }
 
+.scrollable {
+	max-height: 300px;
+  overflow-y: scroll;
+}
+
 
 #dev-artist {
 	font-family: 'Bad Script';
