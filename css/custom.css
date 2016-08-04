@@ -14,6 +14,8 @@ p, nav, .aside-nav {
 	font-family: 'Raleway';
 }
 
+/* Header */
+
 #el-boy {
 	border-radius: 1em;
 	-webkit-box-shadow: 3px 4px 10px #6C809A;
@@ -43,6 +45,7 @@ nav {
 	text-shadow: 1px 1px #eff;
 }
 
+/* Caoursel */
 .owl-carousel .item-video {
 	height:320px;
 }
@@ -51,6 +54,8 @@ nav {
 	border-radius: 10px;
 	margin: 1px;
 }
+
+/* Carousel Dots from previous version */
 
 .owl-dots {
     text-align: center;
@@ -72,8 +77,12 @@ nav {
     opacity: 1;
 }
 
+.update-divider {
+	margin: 5% 0;
+}
+
 .scrollable {
-	max-height: 300px;
+	max-height: 200px;
   overflow-y: scroll;
   background: #FFEEDB;
   border-radius: 10px;
@@ -84,7 +93,6 @@ nav {
 #fat-to-thin {
 	margin-top: 10%;
 }
-
 
 #dev-artist {
 	font-family: 'Bad Script';
