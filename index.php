@@ -58,7 +58,7 @@
                <div class="margin">
                   <!-- CONTENT -->
                   <article class="s-12 m-7 l-8">
-                     <h1>Content</h1>
+                     <h1>The Latest</h1>
                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet 
                         dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
                         lobortis nisl ut aliquip ex ea commodo consequat.
@@ -71,38 +71,7 @@
                      </p>
                   </article>
                   <!-- ASIDE NAV -->
-                  <div class="s-12 m-5 l-4">
-                     <h3>Navigation</h3>
-                     <div class="aside-nav">
-                        <ul>
-                           <li><a>Home</a></li>
-                           <li>
-                              <a>Product</a>
-                              <ul>
-                                 <li><a>Product 1</a></li>
-                                 <li><a>Product 2</a></li>
-                                 <li>
-                                    <a>Product 3</a>
-                                    <ul>
-                                       <li><a>Product 3-1</a></li>
-                                       <li><a>Product 3-2</a></li>
-                                       <li><a>Product 3-3</a></li>
-                                    </ul>
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              <a>Company</a>
-                              <ul>
-                                 <li><a>About</a></li>
-                                 <li><a>Location</a></li>
-                              </ul>
-                           </li>
-                           <li><a>Contact</a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
+                  
             </div>
          </div>
         

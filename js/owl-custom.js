@@ -6,13 +6,13 @@
 
 $(function() {	  
  	$("#owl-demo").owlCarousel({		
-		navigation : true,
+		// nav: true,
 		items: 1,
-		//loop: true,
+		loop: true,
 		dots: true,
 		// slideSpeed : 300,
 		// paginationSpeed : 400,
-		autoPlay : true,
+		// autoPlay : true,
 		// singleItem: true,
 		video: true,
 		//center: true,
@@ -22,13 +22,5 @@ $(function() {
             }
         }	
  	});
-
- $("#owl-demo2").owlCarousel({
-	items : 4,
-	lazyLoad : true,
-	autoPlay : false,
-	navigation : true,
-	pagination : false
- });
 
 });

@@ -1,11 +1,11 @@
-/*MOBILE FIRST DESIGN*/
+/* MOBILE FIRST DESIGN */
 
 body {
 	background: #6C809A;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #6C809A;
+	color: red;
 	font-family: 'Bungee Shade'
 }
 
@@ -41,12 +41,36 @@ nav {
 	height:320px;
 }
 
-.owl-carousel .owl-video-wrapper, .box {
+.owl-carousel .owl-stage-outer, .box {
 	border-radius: 10px;
 	margin: 1px;
+}
+
+.owl-dots {
+    text-align: center;
+}
+.owl-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 5px 7px;
+    filter: Alpha(Opacity=50);
+    opacity: 0.5;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: #000;
+}
+.owl-dot:hover, .owl-dot.active {
+    filter: Alpha(Opacity=100);/*IE7 fix*/
+    opacity: 1;
 }
 
 
 #dev-artist {
 	font-family: 'Bad Script';
 }
+
+
+
+/* RESPONSIVE */
