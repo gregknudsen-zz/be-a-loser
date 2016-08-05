@@ -7,11 +7,8 @@
       <!-- TOP NAV -->  
       <?php include "includes/navigation.php"; ?>      
       
-      <div class="line">
-      <div class="box margin-bottom">
-         <h3>Coming Soon!</h3>
-      </div>
-      </div>
+      
+      <?php include "includes/coming-soon.php"; ?>      
       <!-- FOOTER -->
       <?php include "includes/footer.php"; ?>
 
