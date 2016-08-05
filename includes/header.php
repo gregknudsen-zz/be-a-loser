@@ -5,7 +5,7 @@
             <img id="el-boy" src="img/logo2.png">
          </div> -->
          <div id="title-logo">
-            <img id="fat-to-thin" class="s-12 center" src="img/logo.jpg" alt="" />
+            <img id="fat-to-thin" class="s-12 center" src="img/fat-to-thin-wide.jpeg" alt="" />
             <h1 id="title" class="s-12 center">Be A Loser</h1>
          </div>
       </div>
