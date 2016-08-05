@@ -34,9 +34,21 @@ nav {
 	border-radius: 0 0 1em 1em;
 }
 
+#title-logo {
+		position: relative; 
+    width: 100%; /* for IE 6 */
+	}
+
+#fat-to-thin {
+	opacity: 0.1;
+}
+
 #title {
-	font-size: 5em;
-	text-align: center;
+	position: absolute; 
+ 	top: 1em;
+  left: 0;
+  width: 100%;
+  font-size: 7em;
 }
 
 /* Navigation */
@@ -124,63 +136,74 @@ nav {
   and (max-device-width: 568px) {
 	
 	#title {
-		font-size: 4em;
+		font-size: 2.5em;
+		left: 0.4em;
 	}
 
-	#fat-to-thin {
+	/*#fat-to-thin {
 		display: none;
-	}
+	}*/
 }	
 
 	/* iPhone 6 landscape */
 
 @media only screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+  and (max-device-width: 736px) 
   and (orientation: landscape) { 
 	
 	#title {
 		font-size: 4.66em;
+		left: 0.7em;
 	}
+
+}
+
+	/* iPhone 6+ landscape */
+
+/*@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (orientation: landscape) { 
+
+	#title {
+		font-size: 5.2em;
+		left: 0.7em;
+	}*/
+
+/*}*/
+
+	/* iPhone 6+ Portrait */
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
 	
-	#fat-to-thin {
-		display: none;
+	#title {
+		font-size: 2.9em;
 	}
+
 }
 
 
 
-	/* iPad landscape */
+	/* iPad portrait */
 
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
-  and (orientation: landscape) 
+  and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
 	
-	#title-logo {
-		position: relative; 
-    width: 100%; /* for IE 6 */
-	}
-
-	#fat-to-thin {
-		opacity: 0.1;
-	}
-
 	#title {
-		/*margin-top: 1.5em;*/
-		position: absolute; 
-   	top: 1em;
-    left: 0;
-    width: 100%;
-    font-size: 7em;
-	}
-
-	#el-boy {
-		display: none;
+		font-size: 6em;
+		left: 0.2em;
 	}
 
 }
+
 
 	/* widescreen monitors */
 
@@ -198,16 +221,11 @@ nav {
 	}
 
 	#title {
-		/*margin-top: 1.5em;*/
 		position: absolute; 
    	top: 1em;
-    left: 0;
+    left: 0.5em;
     width: 100%;
     font-size: 7em;
-	}
-
-	#el-boy {
-		display: none;
 	}
 
 }
