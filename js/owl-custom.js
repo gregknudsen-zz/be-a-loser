@@ -10,11 +10,7 @@ $(function() {
 		items: 1,
 		loop: true,
 		video: true,
-		// responsive:{
-  //           480:{
-  //               items:2
-  //           }
-  //       }	
+		
  	});
 
 });

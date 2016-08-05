@@ -3,16 +3,16 @@
       <p class="nav-text">Menu</p>
       <div class="top-nav s-12 l-10">
          <ul>
-            <li><a>Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li>
                <a>Rocemmended Reading</a>
                <ul>
-                  <li><a>Intermittent Fasting</a></li>
-                  <li><a>Low Carb, High Fat</a></li>
+                  <li><a href="./coming-soon.php">Intermittent Fasting</a></li>
+                  <li><a href="./coming-soon.php">Low Carb, High Fat</a></li>
                </ul>
             </li>
             <li>
-               <a>Recipes</a>
+               <a href="./coming-soon.php">Recipes</a>
             </li>
             <li><a id="youtube-nav" href="https://www.youtube.com/channel/UCR2z_y7rQO3CMb3sQe9a48Q" target="_blank">YouTube Channel</a></li>
          </ul>
