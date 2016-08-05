@@ -53,14 +53,13 @@ nav {
 
 /* Navigation */
 
-.icon-youtube:before {
-	content: "\f167";
-}
 
 #youtube-nav {
+	border: 1px solid #fff;
+	background: #eee;
 	color: red;
 	font-weight: bold;
-	text-shadow: 1px 1px #eff;
+	text-shadow: 1px 1px #999;
 }
 
 /* Caoursel */
