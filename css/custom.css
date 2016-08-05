@@ -53,13 +53,20 @@ nav {
 
 /* Navigation */
 
+#nav-home {
+	border-radius: 0 0 0 1em;
+}
 
 #youtube-nav {
-	border: 1px solid #fff;
+	/*border: 1px solid #fff;*/
 	background: #eee;
 	color: red;
 	font-weight: bold;
 	text-shadow: 1px 1px #999;
+}
+
+.top-nav li a:hover, #youtube-nav:hover {
+    background: #93a4bb;
 }
 
 /* Caoursel */

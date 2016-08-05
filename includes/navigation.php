@@ -3,7 +3,7 @@
       <p class="nav-text">Menu</p>
       <div class="top-nav s-12 l-10">
          <ul>
-            <li><a href="index.php">Home</a></li>
+            <li><a id="nav-home" href="index.php">Home</a></li>
             <li>
                <a>Rocemmended Reading</a>
                <ul>
