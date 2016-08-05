@@ -35,7 +35,7 @@ nav {
 }
 
 #title {
-	font-size: 2em;
+	font-size: 5em;
 	text-align: center;
 }
 
@@ -98,7 +98,7 @@ nav {
   box-shadow: inset 1px 1px 6px #6C809A;
 }
 
-#fat-to-thin {
+#social-media {
 	margin-top: 5%;
 	display: flex;
   justify-content: space-around;
@@ -118,14 +118,17 @@ nav {
 /* Mobile Landscape */
 	
 	/* iphone 5 & before */
-	
+
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-device-width: 568px) {
 	
 	#title {
-		font-size: 1.8em;
+		font-size: 4em;
+	}
+
+	#fat-to-thin {
+		display: none;
 	}
 }	
 
@@ -137,10 +140,15 @@ nav {
   and (orientation: landscape) { 
 	
 	#title {
-		font-size: 1.66em;
+		font-size: 4.66em;
 	}
-
+	
+	#fat-to-thin {
+		display: none;
+	}
 }
+
+
 
 	/* iPad landscape */
 
@@ -150,8 +158,26 @@ nav {
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
 	
+	#title-logo {
+		position: relative; 
+    width: 100%; /* for IE 6 */
+	}
+
+	#fat-to-thin {
+		opacity: 0.1;
+	}
+
 	#title {
-		margin-top: 1.5em;
+		/*margin-top: 1.5em;*/
+		position: absolute; 
+   	top: 1em;
+    left: 0;
+    width: 100%;
+    font-size: 7em;
+	}
+
+	#el-boy {
+		display: none;
 	}
 
 }
@@ -162,8 +188,26 @@ nav {
   and (min-device-width: 1000px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 	
+	#title-logo {
+		position: relative; 
+    width: 100%; /* for IE 6 */
+	}
+
+	#fat-to-thin {
+		opacity: 0.1;
+	}
+
 	#title {
-		margin-top: 1.5em;
+		/*margin-top: 1.5em;*/
+		position: absolute; 
+   	top: 1em;
+    left: 0;
+    width: 100%;
+    font-size: 7em;
+	}
+
+	#el-boy {
+		display: none;
 	}
 
 }
