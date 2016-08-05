@@ -39,6 +39,12 @@ nav {
 	text-align: center;
 }
 
+/* Navigation */
+
+.icon-youtube:before {
+	content: "\f167";
+}
+
 #youtube-nav {
 	color: red;
 	font-weight: bold;
@@ -46,16 +52,16 @@ nav {
 }
 
 /* Caoursel */
+
 .owl-carousel .item-video {
 	height:320px;
 }
 
 .owl-carousel .owl-stage-outer, .box {
-	border-radius: 10px;
-	margin: 1px;
+	border-radius: 1em;
 }
 
-/* Carousel Dots from previous version */
+	/* Carousel Dots from previous version */
 
 .owl-dots {
     text-align: center;
@@ -77,22 +83,29 @@ nav {
     opacity: 1;
 }
 
+/* Updates */
+
 .update-divider {
 	margin: 5% 0;
 }
 
 .scrollable {
-	max-height: 200px;
+	max-height: 200px; /* Make taller for bigger screens */
   overflow-y: scroll;
   background: #FFEEDB;
   border-radius: 10px;
   text-align: justify;
-  box-shadow: 3px 4px 10px #6C809A;
+  box-shadow: inset 1px 1px 6px #6C809A;
 }
 
 #fat-to-thin {
-	margin-top: 10%;
+	margin-top: 5%;
+	display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
+/* Footer */
 
 #dev-artist {
 	font-family: 'Bad Script';

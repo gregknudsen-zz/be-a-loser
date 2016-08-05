@@ -18,8 +18,9 @@
          </ul>
       </div>
       <div class="hide-s hide-m l-2">
-         <i class="icon-facebook_circle icon2x right padding"></i>
-         <!-- <img class="right" src="img/Loser-Youtube.jpg" alt=""> -->
+         <a href="https://www.facebook.com/bealosertoday/?ref=aymt_homepage_panel"><i class="icon-facebook_circle icon2x right padding"></i></a>
+         <i class="icon-google_plus icon2x right padding"></i>
+         <i class="icon-youtube icon2x right padding"></i>
       </div>
    </nav>
 </div>
