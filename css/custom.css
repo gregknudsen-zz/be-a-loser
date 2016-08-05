@@ -116,18 +116,54 @@ nav {
 /* RESPONSIVE */
 
 /* Mobile Landscape */
+	
+	/* iphone 5 & before */
+	
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	
+	#title {
+		font-size: 1.8em;
+	}
+}	
+
+	/* iPhone 6 landscape */
 
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
 	
 	#title {
-		font-size: 1.9em;
+		font-size: 1.66em;
 	}
 
+}
 
+	/* iPad landscape */
 
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+	
+	#title {
+		margin-top: 1.5em;
+	}
+
+}
+
+	/* widescreen monitors */
+
+@media screen 
+  and (min-device-width: 1000px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+	
+	#title {
+		margin-top: 1.5em;
+	}
 
 }
