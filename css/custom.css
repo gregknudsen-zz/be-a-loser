@@ -22,8 +22,6 @@ a, a:link {
 
 #el-boy {
 	border-radius: 1em;
-	-webkit-box-shadow: 3px 4px 10px #6C809A;
-	-moz-box-shadow: 3px 4px 10px #6C809A;
 	-ms-box-shadow: 3px 4px 10px #6C809A;
 	-o-box-shadow: 3px 4px 10px #6C809A;
 	box-shadow: 3px 4px 10px #6C809A;
@@ -93,8 +91,6 @@ nav {
     margin: 5px 7px;
     filter: Alpha(Opacity=50);
     opacity: 0.5;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
     border-radius: 20px;
     background: #000;
 }
@@ -107,6 +103,17 @@ nav {
 
 #about {
 	font-size: 1em;
+}
+
+blockquote {
+	font-family: "Bad Script";
+	font-size: 2em;
+	border-top: 1px solid #6C809A;
+	border-bottom: 1px solid #6C809A;
+	margin: 3% 0;
+	padding: 1%;
+	line-height: 1.5em;
+
 }
 
 /* Updates */
@@ -126,9 +133,12 @@ nav {
 
 #social-media {
 	margin-top: 5%;
+	display: -ms-flexbox;
 	display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 /* Footer */
