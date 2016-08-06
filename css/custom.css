@@ -57,9 +57,7 @@ nav {
 
 /* Navigation */
 
-#nav-home {
-	border-radius: 0 0 0 1em;
-}
+
 
 #youtube-nav {
 	/*border: 1px solid #fff;*/
@@ -230,6 +228,10 @@ nav {
 	#title-logo {
 		position: relative; 
     width: 100%; /* for IE 6 */
+	}
+
+	#nav-home {
+		border-radius: 0 0 0 1em;
 	}
 
 	#fat-to-thin {
