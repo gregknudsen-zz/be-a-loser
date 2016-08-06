@@ -174,7 +174,7 @@ blockquote {
   and (orientation: landscape) { 
 
 	#title {
-		font-size: 5.2em;
+		font-size: 6.2em;
 		left: 0.7em;
 	}
 
@@ -185,8 +185,7 @@ blockquote {
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (orientation: portrait) {
 	
 	#title {
 		font-size: 6em;
@@ -216,8 +215,7 @@ blockquote {
 	/* widescreen monitors */
 
 @media screen 
-	and (min-device-width: 1000px) 
-	and (-webkit-min-device-pixel-ratio: 1) { 
+	and (min-device-width: 1000px) { 
 	
 	#title-logo {
 		position: relative; 
