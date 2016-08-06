@@ -110,7 +110,7 @@ blockquote {
 	font-size: 2em;
 	border-top: 1px solid #6C809A;
 	border-bottom: 1px solid #6C809A;
-	margin: 3% 0;
+	margin: 3%;
 	padding: 1%;
 	line-height: 1.5em;
 
@@ -254,6 +254,10 @@ blockquote {
     left: 0.5em;
     width: 100%;
     font-size: 7em;
+	}
+
+	#after-blockquote {
+		margin-top: 2%;
 	}
 
 }
