@@ -48,9 +48,9 @@ nav {
 #title {
 	position: absolute; 
  	top: 1em;
-  left: 0;
+  left: 0.5em;
   width: 100%;
-  font-size: 6.1em;
+  font-size: 2.5em;
 }
 
 /* Navigation */
@@ -151,27 +151,10 @@ blockquote {
 
 /* RESPONSIVE */
 
-/* Mobile Landscape */
-	
-	/* iphone 5 & before */
-
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px) {
-	
-	#title {
-		font-size: 2.1em;
-		left: 0.4em;
-	}
-
-	/*#fat-to-thin {
-		display: none;
-	}*/
-}	
 
 	/* iPhone 6 landscape */
 
-@media only screen 
+@media screen 
   and (min-device-width: 375px) 
   and (max-device-width: 736px) 
   and (orientation: landscape) { 
@@ -183,23 +166,38 @@ blockquote {
 
 }
 
-	/* iPhone 6+ landscape */
+	/* iPad landscape */
 
-/*@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
+@media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1100px) 
   and (orientation: landscape) { 
 
 	#title {
 		font-size: 5.2em;
 		left: 0.7em;
-	}*/
+	}
 
-/*}*/
+}
+
+	/* iPad portrait */
+
+@media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+	
+	#title {
+		font-size: 6em;
+		left: 0.2em;
+	}
+
+}
 
 	/* iPhone 6+ Portrait */
 
-@media only screen 
+@media screen 
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
@@ -213,27 +211,13 @@ blockquote {
 
 
 
-	/* iPad portrait */
-
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-	
-	#title {
-		font-size: 6em;
-		left: 0.2em;
-	}
-
-}
 
 
 	/* widescreen monitors */
 
 @media screen 
-  and (min-device-width: 1000px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
+	and (min-device-width: 1000px) 
+	and (-webkit-min-device-pixel-ratio: 1) { 
 	
 	#title-logo {
 		position: relative; 
@@ -260,4 +244,36 @@ blockquote {
 		margin-top: 2%;
 	}
 
+}
+
+	/* iphone 5 models & smaller portrait */
+
+@media screen 
+  and (max-device-width: 320px) 
+  and (orientation: portrait) {
+	
+	#title {
+		font-size: 2.1em;
+		left: 0.4em;
+	}
+
+	/*#fat-to-thin {
+		display: none;
+	}*/
+}	
+
+	/* iPhone 5 models & smaller landscape */
+
+@media screen 
+  and (max-device-width: 568px) 
+  and (orientation: landscape) {
+	
+	#title {
+		font-size: 4em;
+		left: 0.4em;
+	}
+
+	/*#fat-to-thin {
+		display: none;
+	}*/
 }
