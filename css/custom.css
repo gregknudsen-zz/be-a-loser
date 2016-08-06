@@ -14,6 +14,10 @@ p, nav, .aside-nav {
 	font-family: 'Raleway';
 }
 
+a, a:link {
+	color: red;
+}
+
 /* Header */
 
 #el-boy {
@@ -99,6 +103,12 @@ nav {
 .owl-dot:hover, .owl-dot.active {
     filter: Alpha(Opacity=100);/*IE7 fix*/
     opacity: 1;
+}
+
+/* About */
+
+#about {
+	font-size: 1em;
 }
 
 /* Updates */

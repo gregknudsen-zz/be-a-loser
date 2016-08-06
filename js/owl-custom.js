@@ -10,7 +10,6 @@ $(function() {
 		items: 1,
 		loop: true,
 		video: true,
-		
  	});
 
 });
