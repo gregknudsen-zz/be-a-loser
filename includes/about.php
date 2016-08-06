@@ -9,6 +9,7 @@
             <blockquote class="l-6 s-12">
                "The standard methods for weight loss, ie. Eat Less, Move More, just weren't working."
             </blockquote> 
+            <div class="l-offset-7">
             <p id="after-blockquote">
                While the website is still very much a work in progress, you will start to see more content as more videos go up on our YouTube channel. There will be recipes, suggested reading, and more if we think it will help you on your journey. So add us to your bookmarks, and please continue to check in.
             </p>
@@ -20,6 +21,7 @@
             <p>Thank you for joining us on our journey.</p>
             <br>
             <p>John</p>     
+            </div>
 
             </p>
          </div>
