@@ -160,7 +160,7 @@ blockquote {
   and (orientation: landscape) { 
 	
 	#title {
-		font-size: 4.66em!important;
+		font-size: 4.66em;
 		left: 0.7em;
 	}
 
@@ -174,7 +174,7 @@ blockquote {
   and (orientation: landscape) { 
 
 	#title {
-		font-size: 5.2em!important;
+		font-size: 5.2em;
 		left: 0.7em;
 	}
 
