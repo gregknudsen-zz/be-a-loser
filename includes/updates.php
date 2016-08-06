@@ -13,6 +13,7 @@
               	<p>6.21.2016</p>
               	<p>Be A Loser YouTube Channel created</p>
               	<hr class="update-divider">
+                <p>Check back for more updates!</p>
               </div>
            </div>
         </article>
