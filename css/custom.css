@@ -20,13 +20,6 @@ a, a:link {
 
 /* Header */
 
-#el-boy {
-	border-radius: 1em;
-	-ms-box-shadow: 3px 4px 10px #6C809A;
-	-o-box-shadow: 3px 4px 10px #6C809A;
-	box-shadow: 3px 4px 10px #6C809A;
-}
-
 #header {
 	background: #FFEEDB;
 	border-radius: 1em 1em 0 0;
@@ -56,7 +49,6 @@ nav {
 /* Navigation */
 
 #youtube-nav {
-	/*border: 1px solid #fff;*/
 	background: #eee;
 	color: red;
 	font-weight: bold;
@@ -150,11 +142,6 @@ blockquote {
 /* RESPONSIVE */
 
 
-
-
-
-
-
 	/* widescreen monitors */
 
 @media screen 
@@ -172,36 +159,4 @@ blockquote {
 		margin-top: 2%;
 	}
 
-}
-
-	/* iphone 5 models & smaller portrait */
-
-/*@media screen 
-  and (max-device-width: 320px) 
-  and (orientation: portrait) {
-	
-	#title {
-		font-size: 2.1em;
-		left: 0.4em;
-	}*/
-
-	/*#fat-to-thin {
-		display: none;
-	}*/	
-
-	/* iPhone 5 models & smaller landscape */
-
-/*@media screen 
-  and (max-device-width: 568px) 
-  and (orientation: landscape) {
-	
-	#title {
-		font-size: 4em;
-		left: 0.4em;
-	}*/
-
-	/*#fat-to-thin {
-		display: none;
-	}*/
-}
 }
