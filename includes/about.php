@@ -22,8 +22,6 @@
             <br>
             <p>John</p>     
             </div>
-
-            </p>
          </div>
       </div>
    </div> 
