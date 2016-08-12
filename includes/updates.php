@@ -6,13 +6,24 @@
            <h1>The Latest</h1>
            <div class="scrollable padding">
               <div id="update-content">
-              	<h4>Sample Updates</h4>
-              	<p>6.23.2016</p>
-              	<p>First video uploaded</p>
-              	<hr class="update-divider">
-              	<p>6.21.2016</p>
-              	<p>Be A Loser YouTube Channel created</p>
-              	<hr class="update-divider">
+                	<h4>Sample Updates</h4>
+                <section>
+                  <p>6.23.2016</p>
+                	<p>First video uploaded</p>
+                </section>
+                <section>
+                	<p>6.21.2016</p>
+                	<p>Be A Loser YouTube Channel created</p>
+                </section>
+                <section>
+                  <p>6.21.2016</p>
+                  <p>Be A Loser YouTube Channel created</p>
+                </section>
+                <section>
+                  <p>6.21.2016</p>
+                  <p>Be A Loser YouTube Channel created</p>
+                </section>
+
                 <p>Check back for more updates!</p>
               </div>
            </div>

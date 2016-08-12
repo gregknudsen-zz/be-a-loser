@@ -95,10 +95,15 @@ nav {
 	font-size: 1em;
 }
 
-blockquote:before {
-	content: '"';
-	color: red;
+
+section:nth-child(2n-1) {
+	background: #eee;
 }
+
+section {
+	margin: 2% 0;
+}
+
 
 blockquote {
 	font-family: "Bad Script";
@@ -108,7 +113,11 @@ blockquote {
 	margin: 3%;
 	padding: 1%;
 	line-height: 1.5em;
+}
 
+blockquote:before {
+	content: '"';
+	color: red;
 }
 
 blockquote:after {
