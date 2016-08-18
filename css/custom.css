@@ -96,9 +96,6 @@ nav {
 }
 
 
-section:nth-child(2n-1) {
-	background: #eee;
-}
 
 section {
 	margin: 2% 0;
@@ -106,6 +103,10 @@ section {
   padding: 0.7em;
   background: rgb(134, 177, 210);
   box-shadow: 2px 2px 3px #222;
+}
+
+section h1, h2, h3, h4, h5 {
+	font-family: "Raleway";
 }
 
 
@@ -131,8 +132,8 @@ blockquote:after {
 
 /* Updates */
 
-.update-divider {
-	margin: 5% 0;
+section:nth-child(2n-1) {
+	background: #d4ddeb;
 }
 
 .scrollable {
