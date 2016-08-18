@@ -138,7 +138,7 @@ section:nth-child(2n-1) {
   overflow-y: scroll;
   background: #FFEEDB;
   border-radius: 10px;
-  text-align: justify;
+  /*text-align: justify;*/
   box-shadow: inset 1px 1px 6px #6C809A;
 }
 
