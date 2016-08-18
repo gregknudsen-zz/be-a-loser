@@ -5,24 +5,27 @@
         <article class="s-12 l-6">
            <h1>The Latest</h1>
            <div class="scrollable padding">
-              <div id="update-content">
-                	<h4>Sample Updates</h4>
+              <div id="update-content">              
                 <section>
-                  <p>6.23.2016</p>
-                	<p>First video uploaded</p>
+                  <p>8.17.2016</p>
+                	<h3>Video uploaded!</h3> 
+                  <p>John has some very useful tips when it comes to fasting.</p>
+                  <p>Find it <a href="https://youtu.be/leKZ0wfRW4Q" target="_blank">here</a> on our YouTube channel.</p>
                 </section>
                 <section>
-                	<p>6.21.2016</p>
-                	<p>Be A Loser YouTube Channel created</p>
+                	<p>8.14.2016</p>
+                	<h3>Fasting playlist created!</h3> 
+                  <p>See it <a href="https://www.youtube.com/playlist?list=PL4Q5STdNYMWpUyn3pkZKWO6Edqiq1J5z8" target="_blank">here!</a></p>
+                  <p>Now you can have easy access to all of our videos that only pertain to fasting. Enjoy!</p>
                 </section>
-                <section>
+                <!-- <section>
                   <p>6.21.2016</p>
                   <p>Be A Loser YouTube Channel created</p>
                 </section>
                 <section>
                   <p>6.21.2016</p>
                   <p>Be A Loser YouTube Channel created</p>
-                </section>
+                </section> -->
 
                 <p>Check back for more updates!</p>
               </div>
