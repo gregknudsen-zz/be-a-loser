@@ -102,6 +102,10 @@ section:nth-child(2n-1) {
 
 section {
 	margin: 2% 0;
+  border-radius: 6px;
+  padding: 0.7em;
+  background: rgb(134, 177, 210);
+  box-shadow: 2px 2px 3px #222;
 }
 
 
@@ -177,5 +181,18 @@ blockquote:after {
 	#after-blockquote {
 		margin-top: 2%;
 	}
+
+	.scrollable {
+		max-height: 300px;
+	}
+
+	#social-media {
+		margin-top: 8%;
+	}
+
+
+
+
+
 
 }
