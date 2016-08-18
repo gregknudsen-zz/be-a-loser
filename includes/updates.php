@@ -15,8 +15,8 @@
                 <section>
                 	<p>8.14.2016</p>
                 	<h3>Fasting playlist created!</h3> 
-                  <p>See it <a href="https://www.youtube.com/playlist?list=PL4Q5STdNYMWpUyn3pkZKWO6Edqiq1J5z8" target="_blank">here!</a></p>
                   <p>Now you can have easy access to all of our videos that only pertain to fasting. Enjoy!</p>
+                  <p>See it <a href="https://www.youtube.com/playlist?list=PL4Q5STdNYMWpUyn3pkZKWO6Edqiq1J5z8" target="_blank">here</a>!</p>
                 </section>
                 <!-- <section>
                   <p>6.21.2016</p>
