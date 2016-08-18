@@ -95,19 +95,6 @@ nav {
 	font-size: 1em;
 }
 
-section {
-	margin: 2% 0;
-  border-radius: 6px;
-  padding: 0.7em;
-  background: rgb(134, 177, 210);
-  box-shadow: 2px 2px 3px #222;
-}
-
-section h1, h2, h3, h4, h5 {
-	font-family: "Raleway";
-}
-
-
 blockquote {
 	font-family: "Bad Script";
 	font-size: 2em;
@@ -129,6 +116,18 @@ blockquote:after {
 }*/
 
 /* Updates */
+
+section {
+	margin: 2% 0;
+  border-radius: 6px;
+  padding: 0.7em;
+  background: rgb(134, 177, 210);
+  box-shadow: 2px 2px 3px #222;
+}
+
+section h1, h2, h3, h4, h5 {
+	font-family: "Raleway";
+}
 
 section:nth-child(2n-1) {
 	background: #d4ddeb;
