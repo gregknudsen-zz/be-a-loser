@@ -95,7 +95,7 @@ nav {
 	font-size: 1em;
 }
 
-blockquote {
+blockquote p {
 	font-family: "Bad Script";
 	font-size: 2em;
 	border-top: 1px solid #6C809A;
@@ -105,15 +105,21 @@ blockquote {
 	line-height: 1.5em;
 }
 
-/*blockquote:before {
-	content: '"';
+blockquote p:before,
+blockquote p:after {
 	color: red;
+	font-size: 1.1em;
+	line-height: 0;
+	vertical-align: middle;
 }
 
-blockquote:after {
-	content: '"';
-	color: red;
-}*/
+blockquote p:before {
+	content: '“';
+}
+
+blockquote p:after {
+	content: '”';
+}
 
 /* Updates */
 
