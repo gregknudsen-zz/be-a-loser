@@ -7,7 +7,9 @@
                After my own struggles with weight gain and obesity, as well as pre diabetic blood labs I knew I had to make a change. The standard methods for weight loss, ie. Eat Less, Move More, just weren't working. I wasn't happy with the direction my doctor and mainstream medical and nutritional experts were taking me. So I decided to take matters in my own hands. I discovered the writings of Gary Taubes and Dr. Jason Fung and my quality of life improved immensely. This change was so profound, and after much intense study, so obvious and logical, that I felt I needed to share it with as many people as I could. I felt that YouTube was the best forum to reach as many people as I could as quickly as possible. <br>
             </p>
             <blockquote class="l-6 s-12">
-               "The standard methods for weight loss, ie. Eat Less, Move More, just weren't working."
+               <p>
+                  The standard methods for weight loss, ie. Eat Less, Move More, just weren't working.
+               </p>
             </blockquote> 
             <div class="l-offset-7">
             <p id="after-blockquote">
