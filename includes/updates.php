@@ -7,6 +7,19 @@
            <div class="scrollable padding">
               <div id="update-content">              
                 <section>
+                
+                <?php 
+                  $json_data = file_get_contents("../updates.json");
+                  $json = json_decode($json_data, true);
+                  $output = "";
+                  foreach ($json['updates'] as $update) {
+                    echo "hello";
+                    $output += "<p>".$update['date']."</p>";
+                    $output += "<h3>".$update['title']."</h3>";
+                  }
+
+                 ?>
+                
                   <!-- <p>8.17.2016</p>
                 	<h3>Video uploaded!</h3> 
                   <p>John has some very useful tips when it comes to fasting.</p>
