@@ -1,0 +1,15 @@
+{
+	"updates" : [
+		{
+			"date"			: "8.17.2016",
+			"title"			: "Video Uploaded",
+			"summary" 	: "John has some very useful tips when it comes to fasting.",
+			"link-text" : "Find it <a href='https://youtu.be/leKZ0wfRW4Q' target='_blank'>here</a> on our YouTube channel."
+		},
+		{
+			"date" : "8.14.2016"
+		}
+
+
+	]
+}
