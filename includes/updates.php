@@ -9,14 +9,17 @@
                 <section>
                 
                 <?php 
-                  $json_data = file_get_contents("../updates.json");
-                  $json = json_decode($json_data, true);
-                  $output = "";
-                  foreach ($json['updates'] as $update) {
-                    echo "hello";
-                    $output += "<p>".$update['date']."</p>";
-                    $output += "<h3>".$update['title']."</h3>";
-                  }
+                  // $json_data = file_get_contents('../updates.json');
+                  // $json = json_decode($json_data, true);
+                  // echo $json['updates'][0]['title'];
+                  // $var = "Hello"
+                  // echo $var;
+                  //$output = "";
+                  // foreach ($json['updates'] as $update) {
+                  //   echo "hello";
+                  //   $output += "<p>".$update['date']."</p>";
+                  //   $output += "<h3>".$update['title']."</h3>";
+                  // }
 
                  ?>
                 
