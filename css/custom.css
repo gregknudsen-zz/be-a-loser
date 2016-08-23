@@ -140,7 +140,7 @@ section:nth-child(2n-1) {
 }
 
 .scrollable {
-	max-height: 200px; /* Make taller for bigger screens */
+	max-height: 250px;
   overflow-y: scroll;
   background: #FFEEDB;
   border-radius: 10px;
@@ -187,11 +187,12 @@ section:nth-child(2n-1) {
 	}
 
 	.scrollable {
-		max-height: 300px;
+		max-height: 400px;
 	}
 
 	#social-media {
-		margin-top: 8%;
+		margin-top: 4%;
+    height: 400px;
 	}
 
 
