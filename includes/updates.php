@@ -6,28 +6,15 @@
            <h1>The Latest</h1>
            <div class="scrollable padding">
               <div id="update-content">              
-                <section>
                 
-                <?php 
-                  // $json_data = file_get_contents('../updates.json');
-                  // $json = json_decode($json_data, true);
-                  // echo $json['updates'][0]['title'];
-                  // $var = "Hello"
-                  // echo $var;
-                  //$output = "";
-                  // foreach ($json['updates'] as $update) {
-                  //   echo "hello";
-                  //   $output += "<p>".$update['date']."</p>";
-                  //   $output += "<h3>".$update['title']."</h3>";
-                  // }
-
-                 ?>
+                
+                
                 
                   <!-- <p>8.17.2016</p>
                 	<h3>Video uploaded!</h3> 
                   <p>John has some very useful tips when it comes to fasting.</p>
                   <p>Find it <a href="https://youtu.be/leKZ0wfRW4Q" target="_blank">here</a> on our YouTube channel.</p> -->
-                </section>
+                
                 <!-- <section>
                 	<p>8.14.2016</p>
                 	<h3>Fasting playlist created!</h3> 
