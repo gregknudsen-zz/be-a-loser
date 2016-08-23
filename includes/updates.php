@@ -30,14 +30,6 @@
                   <p>Now you can have easy access to all of our videos that only pertain to fasting. Enjoy!</p>
                   <p>See it <a href="https://www.youtube.com/playlist?list=PL4Q5STdNYMWpUyn3pkZKWO6Edqiq1J5z8" target="_blank">here</a>!</p>
                 </section>
-                <!-- <section>
-                  <p>6.21.2016</p>
-                  <p>Be A Loser YouTube Channel created</p>
-                </section>
-                <section>
-                  <p>6.21.2016</p>
-                  <p>Be A Loser YouTube Channel created</p>
-                </section> -->
 
                 <p>Check back for more updates!</p>
               </div>
