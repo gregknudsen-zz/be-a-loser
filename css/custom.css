@@ -158,6 +158,13 @@ section:nth-child(2n-1) {
       align-items: center;
 }
 
+/* Rocommended Reading */
+
+iframe {
+	display: flex;
+	align-items: center;
+}
+
 /* Footer */
 
 #dev-artist {
