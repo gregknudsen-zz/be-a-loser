@@ -148,7 +148,8 @@ section:nth-child(2n-1) {
   box-shadow: inset 1px 1px 6px #6C809A;
 }
 
-#social-media {
+#social-media,
+.amazon {
 	margin-top: 5%;
 	display: -ms-flexbox;
 	display: flex;
@@ -160,9 +161,8 @@ section:nth-child(2n-1) {
 
 /* Rocommended Reading */
 
-iframe {
-	display: flex;
-	align-items: center;
+.amazon {
+	
 }
 
 /* Footer */
