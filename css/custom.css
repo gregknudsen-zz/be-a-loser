@@ -155,15 +155,22 @@ section:nth-child(2n-1) {
 	display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -ms-flex-align: center;
-      align-items: center;
+  -ms-flex-align: flex-start;
+      align-items: flex-start;
 }
 
 /* Rocommended Reading */
 
-.amazon {
-	
+.amazon iframe {
+	width: 120px;
+	height: 240px;
 }
+
+.amazon {
+
+}
+
+
 
 /* Footer */
 
