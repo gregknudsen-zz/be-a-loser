@@ -5,7 +5,7 @@
          <ul>
             <li><a id="nav-home" href="index.php">Home</a></li>
             <li>
-               <a>Rocemmended Reading</a>
+               <a>Recommended Reading</a>
                <ul>
                   <li><a href="./if-reading.php">Intermittent Fasting</a></li>
                   <li><a href="./lchf-reading.php">Low Carb, High Fat</a></li>
