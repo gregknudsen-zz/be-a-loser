@@ -9,10 +9,10 @@
       <?php include "./includes/header.php"; ?>
        
       <!-- TOP NAV -->  
-      <?php include "./includes/navigation.php"; ?>      
+      <?php include "./includes/navigation.php"; ?>
       
-      <!-- Coming Soon -->
-      <?php include "./includes/coming-soon.php"; ?>      
+      <!-- IF Reading -->
+      <?php include "./includes/_reading-fasting.php"; ?>
       
       <!-- FOOTER -->
       <?php include "./includes/footer.php"; ?>
