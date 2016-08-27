@@ -164,10 +164,12 @@ section:nth-child(2n-1) {
 .amazon iframe {
 	width: 120px;
 	height: 240px;
+	margin: 1em;
 }
 
 .amazon {
-
+  justify-content: flex-start; 
+  flex-wrap: wrap;
 }
 
 
