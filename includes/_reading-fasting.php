@@ -3,7 +3,7 @@
      <div class="margin">
         <!-- Updates -->
         <article class="s-12">
-        	<h3>Intermittant Fasting</h3>
+        	<h3>Intermittent Fasting</h3>
         	<p>Here are some books we have found to be invaluable in our journey.</p>
         	<div class="amazon">
         		
