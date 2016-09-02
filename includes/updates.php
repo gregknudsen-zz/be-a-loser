@@ -6,7 +6,19 @@
            <h1>The Latest</h1>
            <div class="scrollable padding">
               <div id="update-content">              
-                
+                <?php 
+                   $json_data = file_get_contents("./updates.json");
+                   echo $json_data['updates'];
+                   $json = json_decode($json_data, true);
+                   echo "$json";
+                   // $output = "";
+                   // foreach ($json['updates'] as $update) {
+                   //   echo "hello";
+                   //   $output += "<p>".$update['date']."</p>";
+                   //   $output += "<h3>".$update['title']."</h3>";
+                   // }
+ 
+                  ?>
                 
                 
                 
