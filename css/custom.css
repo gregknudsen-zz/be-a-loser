@@ -157,8 +157,8 @@ section:nth-child(2n-1) {
 	display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -ms-flex-align: flex-start;
-      align-items: flex-start;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 /* Rocommended Reading */
