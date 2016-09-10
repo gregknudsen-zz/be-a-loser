@@ -165,6 +165,7 @@ section:nth-child(2n-1) {
 
 .link-box {
 	display: flex;
+	justify-content: center;
 }
 
 .lchf-box,
@@ -172,6 +173,8 @@ section:nth-child(2n-1) {
 	height: 400px;
 	width: 200px;
 	border: 1px solid #000;
+	margin: 0 5%;
+	background-color: lightblue;
 }
 
 .amazon iframe {

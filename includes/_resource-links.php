@@ -1,8 +1,8 @@
 <section>	
 	
 	<div class="link-box">
-		<a href="../resources/lchf.php"><div class="lchf-box"></div></a>
-		<a href="../resources/if.php"><div class="lchf-box"></div></a>
+		<div class="lchf-box"><a href="../resources/lchf.php"></a></div>
+		<div class="lchf-box"><a href="../resources/if.php"></a></div>
 	</div>
 
 </section>
