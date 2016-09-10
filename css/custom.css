@@ -170,11 +170,11 @@ section:nth-child(2n-1) {
 
 .lchf-box,
 .if-box {
-	height: 400px;
-	width: 200px;
+	height: auto;
+	width: 268px;
 	border: 1px solid #000;
 	margin: 0 5%;
-	background-color: lightblue;
+	background-color: #fff;
 }
 
 .amazon iframe {
