@@ -161,7 +161,18 @@ section:nth-child(2n-1) {
       align-items: center;
 }
 
-/* Rocommended Reading */
+/* Resources */
+
+.link-box {
+	display: flex;
+}
+
+.lchf-box,
+.if-box {
+	height: 400px;
+	width: 200px;
+	border: 1px solid #000;
+}
 
 .amazon iframe {
 	width: 120px;
