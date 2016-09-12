@@ -7,10 +7,26 @@
            <div class="scrollable padding">
               <div id="update-content">              
                 <?php 
-                   $json_data = file_get_contents("./updates.json");
-                   echo $json_data['updates'];
-                   $json = json_decode($json_data, true);
-                   echo "$json";
+                  $json_data = file_get_contents("./updates.json");
+                  // echo $json_data['updates'];
+                  $json = json_decode($json_data, true);
+                  // echo count($json['updates']); 
+                  for ($i=0; $i < count($json['updates']); $i++) { 
+                    echo "<section>";
+                    echo "<p>";
+                    echo $json['updates'][$i]['date'];
+                    echo "</p>";
+                    echo "<h3>";
+                    echo $json['updates'][$i]['title'];
+                    echo "</h3>";
+                    echo "<p>";
+                    echo $json['updates'][$i]['summary'];
+                    echo "</p>";
+                    echo "<p>";
+                    echo $json['updates'][$i]['link-text'];
+                    echo "</p>";
+                    echo "</section>";
+                   }
                    // $output = "";
                    // foreach ($json['updates'] as $update) {
                    //   echo "hello";
