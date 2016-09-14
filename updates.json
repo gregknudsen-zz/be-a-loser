@@ -1,30 +1,36 @@
 {
 	"updates" : [
 		{
-			"date"			: "8.17.2016",
-			"title"			: "Video Uploaded",
-			"summary" 	: "John has some very useful tips when it comes to fasting.",
-			"link-text" : "Find it <a href='https://youtu.be/leKZ0wfRW4Q' target='_blank'>here</a> on our YouTube channel."
+			"date"			: "9.09.2016",
+			"title"			: "2 New Videos Added!",
+			"summary" 	: "We've posted 2 new videos! Check out Incorrect Assumptions of Weight & Intermittent Fasting vs. Calorie Counting for Weight Loss!",
+			"link"			: "<a href='https://youtu.be/leKZ0wfRW4Q' target='_blank'>HERE</a> and <a href='https://youtu.be/1R5rhk25Ytw'>HERE</a>!",
+			"link-text" : "Find these and other videos at our YouTube channel found "
 		},
 		{
 			"date"			: "8.18.2016",
 			"title"			: "Video Uploaded",
 			"summary" 	: "John has some very useful tips when it comes to fasting.",
+			"link"			: "",
 			"link-text" : "Find it <a href='https://youtu.be/leKZ0wfRW4Q' target='_blank'>here</a> on our YouTube channel."
 		},
 		{
 			"date"			: "8.19.2016",
 			"title"			: "Video Uploaded",
 			"summary" 	: "John has some very useful tips when it comes to fasting.",
+			"link"			: "",
 			"link-text" : "Find it <a href='https://youtu.be/leKZ0wfRW4Q' target='_blank'>here</a> on our YouTube channel."
 		},
 		{
 			"date"			: "8.20.2016",
 			"title"			: "Video Uploaded",
 			"summary" 	: "John has some very useful tips when it comes to fasting.",
+			"link"			: "",
 			"link-text" : "Find it <a href='https://youtu.be/leKZ0wfRW4Q' target='_blank'>here</a> on our YouTube channel."
 		}
 
 
 	]
 }
+
+

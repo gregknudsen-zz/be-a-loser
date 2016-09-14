@@ -1,3 +1,29 @@
+<?php function displayUpdate() {
+  $json_data = file_get_contents("./updates.json");
+  $json = json_decode($json_data, true);
+  for ($i=0; $i < count($json['updates']); $i++) { 
+    echo "<section>";
+    echo "<p>";
+    echo $json['updates'][$i]['date'];
+    echo "</p>";
+    echo "<h3>";
+    echo $json['updates'][$i]['title'];
+    echo "</h3>";
+    echo "<p>";
+    echo $json['updates'][$i]['summary'];
+    echo "</p>";
+    echo "<p>";
+    echo $json['updates'][$i]['link-text']. " " . $json['updates'][$i]['link']. ".";
+    echo "</p>";
+    echo "</section>";
+   }
+
+  } 
+
+?>
+
+
+
 <div class="line">
   <div class="box margin-bottom">
      <div class="margin">
@@ -6,51 +32,8 @@
            <h1>The Latest</h1>
            <div class="scrollable padding">
               <div id="update-content">              
-                <?php 
-                  $json_data = file_get_contents("./updates.json");
-                  // echo $json_data['updates'];
-                  $json = json_decode($json_data, true);
-                  // echo count($json['updates']); 
-                  for ($i=0; $i < count($json['updates']); $i++) { 
-                    echo "<section>";
-                    echo "<p>";
-                    echo $json['updates'][$i]['date'];
-                    echo "</p>";
-                    echo "<h3>";
-                    echo $json['updates'][$i]['title'];
-                    echo "</h3>";
-                    echo "<p>";
-                    echo $json['updates'][$i]['summary'];
-                    echo "</p>";
-                    echo "<p>";
-                    echo $json['updates'][$i]['link-text'];
-                    echo "</p>";
-                    echo "</section>";
-                   }
-                   // $output = "";
-                   // foreach ($json['updates'] as $update) {
-                   //   echo "hello";
-                   //   $output += "<p>".$update['date']."</p>";
-                   //   $output += "<h3>".$update['title']."</h3>";
-                   // }
- 
-                  ?>
-                
-                
-                
-                  <!-- <p>8.17.2016</p>
-                	<h3>Video uploaded!</h3> 
-                  <p>John has some very useful tips when it comes to fasting.</p>
-                  <p>Find it <a href="https://youtu.be/leKZ0wfRW4Q" target="_blank">here</a> on our YouTube channel.</p> -->
-                
-                <!-- <section>
-                	<p>8.14.2016</p>
-                	<h3>Fasting playlist created!</h3> 
-                  <p>See it <a href="https://www.youtube.com/playlist?list=PL4Q5STdNYMWpUyn3pkZKWO6Edqiq1J5z8" target="_blank">here!</a></p>
-                  <p>Now you can have easy access to all of our videos that only pertain to fasting. Enjoy!</p>
-                </section> -->
-                
-
+                <?php displayUpdate(); ?>
+                  
                 <p>Check back for more updates!</p>
               </div>
            </div>
