@@ -6,7 +6,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	color: red;
-	font-family: 'Bungee Shade'
+	font-family: 'Raleway'
 }
 
 p, nav, .aside-nav {
@@ -39,6 +39,7 @@ nav {
 }
 
 #title {
+	font-family: 'Bungee Shade';
 	position: absolute; 
  	top: 1em;
   left: 0.5em;
