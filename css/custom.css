@@ -24,11 +24,11 @@ a, a:link {
 
 #header {
 	background: #FFEEDB;
-	border-radius: 1em 1em 0 0;
+	/* border-radius: 1em 1em 0 0; */
 }
 
 nav {
-	border-radius: 0 0 1em 1em;
+	/* border-radius: 0 0 1em 1em; */
 }
 
 /* .top-nav ul:last-child {
@@ -81,7 +81,9 @@ nav {
 }
 
 .owl-carousel .owl-stage-outer, .box {
-	border-radius: 1em;
+	/* border-radius: 1em; */
+	border-top: 1px solid;
+	border-bottom: 1px solid;
 }
 
 	/* Carousel Dots from previous version */
@@ -136,7 +138,7 @@ blockquote p:after {
 
 section {
 	margin: 2% 0;
-  border-radius: 6px;
+  /* border-radius: 6px; */
   padding: 0.7em;
   background: #c9e4ca;
   box-shadow: 2px 2px 3px #222;
@@ -160,7 +162,7 @@ section:nth-child(2n-1) {
 	background: linear-gradient(to bottom,  rgba(254,255,255,1) 0%,rgba(221,241,249,1) 60%,rgba(160,216,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
 
-  border-radius: 10px;
+  /* border-radius: 10px; */
   /*text-align: justify;*/
   box-shadow: inset 1px 1px 6px #6C809A;
 }
@@ -208,7 +210,7 @@ section:nth-child(2n-1) {
 	and (min-width: 1060px) { 
 
 	#nav-home {
-		border-radius: 0 0 0 1em;
+		/* border-radius: 0 0 0 1em; */
 	}
 
 	#title {
