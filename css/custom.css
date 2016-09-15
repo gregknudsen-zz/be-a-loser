@@ -29,6 +29,18 @@ nav {
 	border-radius: 0 0 1em 1em;
 }
 
+/* .top-nav ul:last-child {
+	float: right;
+} */
+
+#youtube {
+	float: right;
+}
+
+.top-nav li {
+	font-size: 1.1em;
+}
+
 #title-logo {
 		position: relative; 
     width: 100%; /* for IE 6 */
