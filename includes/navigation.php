@@ -1,5 +1,5 @@
 <div class="line">
-   <nav class="margin-bottom">
+   <nav>
       <p class="nav-text">Menu</p>
       <div class="top-nav s-12 l-12">
          <ul>

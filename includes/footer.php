@@ -1,5 +1,5 @@
 <footer class="line">
-   <div class="box">
+   <div class="box border-top">
       <div class="s-12 l-6">
          <p>Copyright 2016, Vision Design - graphic zoo</p>
       </div>

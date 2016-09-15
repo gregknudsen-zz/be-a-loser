@@ -72,6 +72,8 @@ nav {
 
 .top-nav li a:hover, #youtube-nav:hover {
     background: #93a4bb;
+    color: white;
+    text-shadow: 1px 1px #000;
 }
 
 /* Caoursel */
@@ -80,10 +82,17 @@ nav {
 	height:320px;
 }
 
+.border-top {
+	border-top: 1px solid #000;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #000;
+}
+
 .owl-carousel .owl-stage-outer, .box {
 	/* border-radius: 1em; */
-	border-top: 1px solid;
-	border-bottom: 1px solid;
+	/* border-bottom: 1px solid; */
 }
 
 	/* Carousel Dots from previous version */
