@@ -12,6 +12,8 @@ h1, h2, h3, h4, h5, h6 {
 p, nav, .aside-nav {
 	color: #633443;
 	font-family: 'Raleway';
+	line-height: 1.3em;
+	font-size: 1.1em;
 }
 
 a, a:link {
@@ -106,12 +108,12 @@ nav {
 
 blockquote p {
 	font-family: "Bad Script";
-	font-size: 2em;
-	border-top: 1px solid #6C809A;
-	border-bottom: 1px solid #6C809A;
-	margin-top: 3%;
-	padding: 2%;
-	line-height: 1.5em;
+  font-size: 2.8em;
+  border-top: 1px solid #6C809A;
+  border-bottom: 1px solid #6C809A;
+  margin-top: 10%;
+  padding: 2%;
+  line-height: 1.5em;
 }
 
 blockquote p:before,
