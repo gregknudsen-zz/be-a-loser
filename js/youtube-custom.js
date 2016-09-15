@@ -14,7 +14,8 @@
       playerVars: {
         listType: 'playlist',
         list: 'PL4Q5STdNYMWpUyn3pkZKWO6Edqiq1J5z8',
-      }
+      },
+      origin: "http://www.bealoser.today/videos.php"
       // index: '0'
       // videoId: 'blO_QbXNzy0',
       // playlist: 'PL4Q5STdNYMWpUyn3pkZKWO6Edqiq1J5z8'
