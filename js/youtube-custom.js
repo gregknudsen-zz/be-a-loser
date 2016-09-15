@@ -11,8 +11,10 @@
     player = new YT.Player('ytplayer', {
       height: '390',
       width: '640',
-      listType: 'playlist',
-      list: 'PL4Q5STdNYMWpUyn3pkZKWO6Edqiq1J5z8',
+      playerVars: {
+        listType: 'playlist',
+        list: 'PL4Q5STdNYMWpUyn3pkZKWO6Edqiq1J5z8',
+      }
       // index: '0'
       // videoId: 'blO_QbXNzy0',
       // playlist: 'PL4Q5STdNYMWpUyn3pkZKWO6Edqiq1J5z8'
