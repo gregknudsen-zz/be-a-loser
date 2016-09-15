@@ -82,6 +82,8 @@ nav {
 	height:320px;
 }
 
+.owl-carousel 
+
 .border-top {
 	border-top: 1px solid #000;
 }
@@ -90,9 +92,9 @@ nav {
 	border-bottom: 1px solid #000;
 }
 
-.owl-carousel .owl-stage-outer, .box {
-	/* border-radius: 1em; */
-	/* border-bottom: 1px solid; */
+.owl-carousel .owl-stage-outer {
+	border-radius: 10px;
+	margin-top: 2%;
 }
 
 	/* Carousel Dots from previous version */
