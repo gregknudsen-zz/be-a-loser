@@ -12,7 +12,13 @@
                </ul>
             </li>
             <li>
-               <a href="./recipes.php">Recipes</a>
+               <a>Video Series</a>
+               <ul>
+                  <li><a href="./recipes.php">Intermittent Fasting</a></li>
+                  <li><a href="./recipes.php">Understanding Weight Gain</a></li>
+                  <li><a href="./recipes.php">Type 2 Diabetes</a></li>
+                  <li><a href="./recipes.php">LCHF</a></li>
+               </ul>
             </li>
             <li id="youtube"><a id="youtube-nav" href="https://www.youtube.com/channel/UCR2z_y7rQO3CMb3sQe9a48Q" target="_blank">YouTube Channel</a></li>
          </ul>
