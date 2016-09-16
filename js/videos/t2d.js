@@ -8,14 +8,15 @@
   // YouTube player after the API code downloads.
 
   var player;
+  var t2d = 'PL4Q5STdNYMWqJKAlLR7CKqSbM6pyprO-9'
   function onYouTubePlayerAPIReady() {
-    player = new YT.Player('ytplayer', {
+    player = new YT.Player('t2d-player', {
       height: '390',
       width: '640',
       playerVars: {
-        'autoplay': 1,
+        autoplay: 1,
         listType: 'playlist',
-        list: 'PL4Q5STdNYMWqx7e8eHVMzzbmN6Hglx6o2'
+        list: t2d
       }
     });
   }
