@@ -93,8 +93,7 @@ nav {
 }
 
 .owl-carousel .owl-stage-outer {
-	border-radius: 10px;
-	margin-top: 2%;
+	border-top: 1px solid #fff;
 }
 
 	/* Carousel Dots from previous version */
