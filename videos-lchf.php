@@ -17,8 +17,7 @@
       <!-- FOOTER -->
       <?php include "./includes/footer.php"; ?>
 
-      <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>  
-      <script type="text/javascript" src="js/owl-custom.js"></script>  
+      <script type="text/javascript" src="js/youtube-custom.js"></script>  
       
    </body>
 </html>
