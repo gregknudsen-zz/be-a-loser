@@ -6,15 +6,18 @@
 
   // Replace the 'ytplayer' element with an <iframe> and
   // YouTube player after the API code downloads.
+
   var player;
   function onYouTubePlayerAPIReady() {
     player = new YT.Player('ytplayer', {
       height: '390',
       width: '640',
       playerVars: {
-        listType: "playlist",
-        list: "PL4Q5STdNYMWpUyn3pkZKWO6Edqiq1J5z8"
-      },
-      showInfo: 1
+        'autoplay': 1,
+        listType: 'playlist',
+        list: 'PL4Q5STdNYMWqx7e8eHVMzzbmN6Hglx6o2'
+      }
     });
   }
+
+

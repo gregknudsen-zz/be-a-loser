@@ -201,6 +201,16 @@ section:nth-child(2n-1) {
   flex-wrap: wrap;
 }
 
+/* Videos */
+
+.videos {
+	display: flex;
+}
+
+.videos h3,
+.videos p {
+	width: 25%;
+}
 
 
 /* Footer */
