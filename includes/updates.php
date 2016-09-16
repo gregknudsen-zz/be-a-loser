@@ -1,5 +1,5 @@
 <div class="line">
-  <div class="box margin-bottom">
+  <div class="box border-bottom">
      <div class="margin">
         <!-- Updates -->
         <article class="s-12 l-7">
