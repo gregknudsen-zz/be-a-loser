@@ -35,9 +35,7 @@ nav {
 	float: right;
 } */
 
-#youtube {
-	float: right;
-}
+
 
 .top-nav li {
 	font-size: 1.1em;
@@ -177,6 +175,11 @@ section:nth-child(2n-1) {
   box-shadow: inset 1px 1px 6px #6C809A;
 }
 
+#ny-times {
+	font-family: "Georgia";
+	font-weight: bold;
+}
+
 #social-media,
 .amazon {
 	margin-top: 5%;
@@ -221,6 +224,10 @@ section:nth-child(2n-1) {
 
 	#nav-home {
 		/* border-radius: 0 0 0 1em; */
+	}
+
+	#youtube {
+		float: right;
 	}
 
 	#title {
