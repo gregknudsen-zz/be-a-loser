@@ -203,15 +203,14 @@ section:nth-child(2n-1) {
 
 /* Videos */
 
-.videos,
-.h3 {
-	display: flex;
+iframe {
+	width: 100%;
 }
 
 .h3 {
-	width: 25%;
-	flex-direction: column;
-	justify-content: center;
+	/* width: 25%; */
+	/* flex-direction: column;
+	justify-content: center; */
 }
 
 
@@ -254,6 +253,21 @@ section:nth-child(2n-1) {
 	#social-media {
 		margin-top: 4%;
     height: 400px;
+	}
+
+	.videos,
+	.h3 {
+		display: flex;
+	}
+
+	.h3 {
+		width: 25%;
+		flex-direction: column;
+		justify-content: space-between;
+	}	
+
+	.h3 p {
+		padding: 0.1em;
 	}
 
 
