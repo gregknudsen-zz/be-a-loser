@@ -1,8 +1,3 @@
-// $(document).ready(function(){
-//   $(".owl-carousel").owlCarousel({
-//   	autoplay: false
-//   });
-// });
 
 var Carousel = (function(){
 
