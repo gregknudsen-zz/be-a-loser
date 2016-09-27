@@ -7,6 +7,12 @@
            <div class="scrollable padding">
               <div id="update-content">              
                 <section>
+                  <p>9.23.2016</p>
+                  <h4>New Video Uploaded</h4> 
+                  <p>We've added a new video to our Understanding Weight Gain series.</p>
+                  <p>Watch the video <a href=" https://youtu.be/9BDj2-I_DfI">HERE</a>!</p>
+                </section>
+                <section>
                   <p>9.16.2016</p>
                   <h4>New Video Uploaded</h4> 
                   <p>We've just uploaded a new video in our LCHF series.</p>
