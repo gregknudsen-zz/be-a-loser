@@ -1,3 +1,16 @@
+<?php 
+   
+   include 'routes.php';
+
+   $route = new Route();
+
+
+   $route->add('/');
+   $route->add('/resources');
+   $route->add('/series');
+
+ ?>
+
 <html lang="en-US">
    <?php include "includes/head.php"; ?>
    <body class="size-960">
