@@ -82,7 +82,7 @@ nav {
 	height:320px;
 }
 
-.owl-carousel 
+.owl-carousel {}
 
 .border-top {
 	border-top: 1px solid #000;
@@ -208,9 +208,9 @@ iframe {
 }
 
 .h3 {
-	/* width: 25%; */
-	/* flex-direction: column;
-	justify-content: center; */
+	text-align: center;
+	margin-bottom: 10%;
+	font-size: 1.3em;
 }
 
 
