@@ -255,9 +255,8 @@ iframe {
     height: 400px;
 	}
 
-	.videos,
-	.h3 {
-		display: flex;
+	.videos {
+		width: ;
 	}
 
 	.h3 {

@@ -2,13 +2,13 @@
   <div class="box">
         
         <!-- Videos -->
-	      <div class="videos border-top">
+	      <div class="border-top">
 	      <div class="h3">
 	      	<h3>Type 2 Diabetes</h3>
-	      <p>Use the controls in the upper left hand corner of the display 
-	      to navigate your way around the videos.</p>
-	      </div>
-	      	<div id="t2d-player"></div>
+	      </div class="videos">
+	      	<div id="t2d-video"></div>
+	      	
+
 				</div>
 
 		</div>

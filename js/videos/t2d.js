@@ -10,9 +10,10 @@
   var player;
   var t2d = 'PL4Q5STdNYMWqJKAlLR7CKqSbM6pyprO-9'
   function onYouTubePlayerAPIReady() {
-    player = new YT.Player('t2d-player', {
+    player1 = new YT.Player('t2d-video', {
       height: '390',
       width: '640',
+      // videoId: 'ULi3tQsAoqs',
       playerVars: {
         autoplay: 1,
         listType: 'playlist',
@@ -20,5 +21,7 @@
       }
     });
   }
+
+  
 
 
