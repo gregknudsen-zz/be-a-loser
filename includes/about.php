@@ -21,7 +21,7 @@
             </p>
             <br>
             <p>
-               <a href="https://www.youtube.com/channel/UCR2z_y7rQO3CMb3sQe9a48Q" target="_blank"><span class="g-ytsubscribe" data-channelid="UCR2z_y7rQO3CMb3sQe9a48Q" data-layout="default" data-count="hidden"></span></a>
+               <a href="https://www.youtube.com/channel/UCR2z_y7rQO3CMb3sQe9a48Q/sub_confirmation=1" target="_blank"><span class="g-ytsubscribe" data-channelid="UCR2z_y7rQO3CMb3sQe9a48Q" data-layout="default" data-count="hidden"></span></a>
             </p>
             </p>
             <br>
