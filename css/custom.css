@@ -78,7 +78,7 @@ nav {
 
 
 .intro-video {
-	max-width: 60em;
+	/* max-width: 60em; */
 	margin: 10px;
 	height: 390px;
 }
@@ -231,16 +231,21 @@ section:nth-child(2n-1) {
 	/* widescreen monitors */
 
 @media screen 
-	and (min-width: 1060px) { 
+	and (min-width: 1024px) { 
 
 	#nav-home {
 		/* border-radius: 0 0 0 1em; */
 	}
 
 	.intro-video {
+		width: 100%;
 		display: flex;
 		justify-content: center;
-		margin: 1em 17em;
+		margin: 1em 0;
+	}
+
+	iframe {
+		max-width: 748px;
 	}
 
 	#youtube {
