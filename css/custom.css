@@ -76,11 +76,22 @@ nav {
 
 /* Caoursel */
 
+
+.intro-video {
+	/* max-width: 60em; */
+	margin: 10px;
+	height: 390px;
+}
+
+iframe {
+	width: 100%;
+}
+
 .owl-carousel .item-video {
 	height:320px;
 }
 
-.owl-carousel 
+.owl-carousel {}
 
 .border-top {
 	border-top: 1px solid #000;
@@ -164,9 +175,7 @@ section:nth-child(2n-1) {
 	max-height: 250px;
   overflow-y: scroll;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,a0d8ef+100;Blue+3D+%2318 */
-	background: rgb(254,255,255); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(254,255,255,1) 0%, rgba(221,241,249,1) 60%, rgba(160,216,239,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  rgba(254,255,255,1) 0%,rgba(221,241,249,1) 60%,rgba(160,216,239,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: rgb(254,255,255); /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom,  rgba(254,255,255,1) 0%,rgba(221,241,249,1) 60%,rgba(160,216,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
 
@@ -200,8 +209,10 @@ section:nth-child(2n-1) {
 }
 
 .amazon {
-  justify-content: flex-start; 
-  flex-wrap: wrap;
+  -ms-flex-pack: start;
+      justify-content: flex-start; 
+  -ms-flex-wrap: wrap; 
+      flex-wrap: wrap;
 }
 
 
@@ -220,10 +231,24 @@ section:nth-child(2n-1) {
 	/* widescreen monitors */
 
 @media screen 
-	and (min-width: 1060px) { 
+	and (min-width: 1024px) { 
 
 	#nav-home {
 		/* border-radius: 0 0 0 1em; */
+	}
+
+	.intro-video {
+		width: 100%;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-pack: center;
+		    justify-content: center;
+		margin: 1em 0;
+	}
+
+	iframe {
+		max-width: 748px;
+		box-shadow: 0 0 10px 1px #7db2d9;
 	}
 
 	#youtube {
