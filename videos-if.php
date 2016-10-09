@@ -17,7 +17,8 @@
       <!-- FOOTER -->
       <?php include "./includes/footer.php"; ?>
 
-      <script type="text/javascript" src="js/youtube-custom.js"></script>  
+      <script type="text/javascript" src="js/videos/if.js"></script>
+
       
    </body>
 </html>
