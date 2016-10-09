@@ -7,6 +7,24 @@
            <div class="scrollable padding">
               <div id="update-content">              
                 <section>
+                  <p>9.23.2016</p>
+                  <h4>New Video Uploaded</h4> 
+                  <p>We've added a new video to our Understanding Weight Gain series.</p>
+                  <p>Watch the video <a href=" https://youtu.be/9BDj2-I_DfI">HERE</a>!</p>
+                </section>
+                <section>
+                  <p>9.16.2016</p>
+                  <h4>New Video Uploaded</h4> 
+                  <p>We've just uploaded a new video in our LCHF series.</p>
+                  <p>Watch the video <a href="https://www.youtube.com/watch?v=nRY47DI3hQ0">HERE</a>!</p>
+                </section>              
+                <section>
+                  <p>9.15.2016</p>
+                  <h4>NY Times Endorses LCHF Diet!</h4> 
+                  <p> Titled <span id="ny-times">"Before You Spend $26,000 on Weight-Loss Surgery, Do This"</span></p>
+                  <p>Read the article <a href="http://www.nytimes.com/2016/09/11/opinion/sunday/before-you-spend-26000-on-weight-loss-surgery-do-this.html?_r=0">HERE</a>!</p>
+                </section>
+                <section>
                   <p>9.09.2016</p>
                   <h4>2 New Videos Added!</h4> 
                   <p>We've posted 2 new videos! Check out Incorrect Assumptions of Weight Gain <a href="https://youtu.be/H0kagEZoHjU">HERE</a> and Intermittent Fasting vs. Calorie Counting for Weight Loss <a href="https://youtu.be/1R5rhk25Ytw">HERE</a>!</p>

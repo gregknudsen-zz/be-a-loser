@@ -17,11 +17,11 @@
             </p>
             <br>
             <p>
-               The battle against obesity and diabetes (a fully reversible disease) is failing because of ignorance and greed, and I want to turn the tide. Together we can beat this global epidemic, so hit the button below to subscribe to our channel. Help us spread the word.
+               The battle against obesity and diabetes (a fully reversible disease) is failing because of ignorance and greed, and I want to turn the tide. Together we can beat this global epidemic, so hit the button below to subscribe to our channel and help us spread the word.
             </p>
             <br>
             <p>
-               <a href="https://www.youtube.com/channel/UCR2z_y7rQO3CMb3sQe9a48Q" target="_blank"><span class="g-ytsubscribe" data-channelid="UCR2z_y7rQO3CMb3sQe9a48Q" data-layout="default" data-count="hidden"></span></a>
+               <a href="https://www.youtube.com/channel/UCR2z_y7rQO3CMb3sQe9a48Q/sub_confirmation=1" target="_blank"><span class="g-ytsubscribe" data-channelid="UCR2z_y7rQO3CMb3sQe9a48Q" data-layout="default" data-count="hidden"></span></a>
             </p>
             </p>
             <br>

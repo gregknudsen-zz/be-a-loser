@@ -20,6 +20,14 @@ a, a:link {
 	color: red;
 }
 
+.border-top {
+	border-top: 1px solid #000;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #000;
+}
+
 /* Header */
 
 #header {
@@ -27,17 +35,7 @@ a, a:link {
 	/* border-radius: 1em 1em 0 0; */
 }
 
-nav {
-	/* border-radius: 0 0 1em 1em; */
-}
 
-/* .top-nav ul:last-child {
-	float: right;
-} */
-
-#youtube {
-	float: right;
-}
 
 .top-nav li {
 	font-size: 1.1em;
@@ -78,43 +76,22 @@ nav {
 
 /* Caoursel */
 
-.owl-carousel .item-video {
-	height:320px;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 004b038dcc51dcb84444a991a6614c0fcdbb70d1
+
+.intro-video {
+	margin: 10px;
+	height: 390px;
 }
 
-.owl-carousel {}
-
-.border-top {
-	border-top: 1px solid #000;
+iframe {
+	width: 100%;
 }
 
-.border-bottom {
-	border-bottom: 1px solid #000;
-}
 
-.owl-carousel .owl-stage-outer {
-	border-top: 1px solid #fff;
-}
 
-	/* Carousel Dots from previous version */
-
-.owl-dots {
-    text-align: center;
-}
-.owl-dot {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    margin: 5px 7px;
-    filter: Alpha(Opacity=50);
-    opacity: 0.5;
-    border-radius: 20px;
-    background: #000;
-}
-.owl-dot:hover, .owl-dot.active {
-    filter: Alpha(Opacity=100);/*IE7 fix*/
-    opacity: 1;
-}
 
 /* About */
 
@@ -148,7 +125,6 @@ blockquote p:after {
 
 section {
 	margin: 2% 0;
-  /* border-radius: 6px; */
   padding: 0.7em;
   background: #c9e4ca;
   box-shadow: 2px 2px 3px #222;
@@ -166,15 +142,16 @@ section:nth-child(2n-1) {
 	max-height: 250px;
   overflow-y: scroll;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,a0d8ef+100;Blue+3D+%2318 */
-	background: rgb(254,255,255); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(254,255,255,1) 0%, rgba(221,241,249,1) 60%, rgba(160,216,239,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  rgba(254,255,255,1) 0%,rgba(221,241,249,1) 60%,rgba(160,216,239,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: rgb(254,255,255); /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom,  rgba(254,255,255,1) 0%,rgba(221,241,249,1) 60%,rgba(160,216,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
 
-  /* border-radius: 10px; */
-  /*text-align: justify;*/
   box-shadow: inset 1px 1px 6px #6C809A;
+}
+
+#ny-times {
+	font-family: "Georgia";
+	font-weight: bold;
 }
 
 #social-media,
@@ -197,8 +174,10 @@ section:nth-child(2n-1) {
 }
 
 .amazon {
-  justify-content: flex-start; 
-  flex-wrap: wrap;
+  -ms-flex-pack: start;
+      justify-content: flex-start; 
+  -ms-flex-wrap: wrap; 
+      flex-wrap: wrap;
 }
 
 /* Videos */
@@ -228,10 +207,24 @@ iframe {
 	/* widescreen monitors */
 
 @media screen 
-	and (min-width: 1060px) { 
+	and (min-width: 1024px) { 
 
-	#nav-home {
-		/* border-radius: 0 0 0 1em; */
+	.intro-video {
+		width: 100%;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-pack: center;
+		    justify-content: center;
+		margin: 1em 0;
+	}
+
+	iframe {
+		max-width: 748px;
+		box-shadow: 0 0 10px 1px #7db2d9;
+	}
+
+	#youtube {
+		float: right;
 	}
 
 	#title {
