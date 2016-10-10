@@ -1,11 +1,13 @@
- <div class="line">
-  <div class="box">
-        
     <!-- Videos -->
-    <div class="h3">
-    	<h3>Intermittent Fasting</h3>
-    </div class="videos">
-    	<div id="t2d-video"></div>
-
-		</div>
+<div class="video-wrapper line">
+	
+	<div class="series-title">
+		<h1>Intermittent Fasting</h1>
 	</div>
+	
+	<div class="intro-video">
+		<div id="if-video"></div>
+	</div>
+	
+
+</div>

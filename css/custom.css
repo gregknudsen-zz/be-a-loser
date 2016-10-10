@@ -74,16 +74,23 @@ a, a:link {
     text-shadow: 1px 1px #000;
 }
 
-/* Caoursel */
+/* Videos */
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 004b038dcc51dcb84444a991a6614c0fcdbb70d1
+.video-wrapper {
+	width: inherit;
+}
 
 .intro-video {
 	margin: 10px;
 	height: 390px;
+}
+
+.series-title {
+	text-align: center;
+}
+
+.series-title h1 {
+	color: #fff;
 }
 
 iframe {

@@ -1,4 +1,6 @@
 // Load the IFrame Player API code asynchronously.
+
+
   var tag = document.createElement('script');
   tag.src = "https://www.youtube.com/player_api";
   var firstScriptTag = document.getElementsByTagName('script')[0];
@@ -22,6 +24,22 @@
     });
   }
 
-  
+  var Notify = (function(){
+      
+
+    function init(){
+      message = "You are able to navigate videos by using the dropdown menu in the upper left hand corner of the screen. Enjoy!"  
+      confirm(message);
+    }
+
+    var message;
+
+    return {
+      init: init
+    }
+
+  })();
+
+  $(document).ready(Notify.init);
 
 
