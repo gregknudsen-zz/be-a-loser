@@ -20,15 +20,17 @@
         list: IF
       }
     });
-  }
+  };
 
 
   var Notify = (function(){
 
-  function init(){
-    message = "You are able to navigate videos by using the dropdown menu in the upper left hand corner of the screen. Enjoy!"  
-    confirm(message);
-  }
+  if ($('body').width > 1024) {
+	  function init(){
+	    message = "You are able to navigate videos by using the dropdown menu in the upper left hand corner of the screen. Enjoy!"  
+	    confirm(message);
+	  }
+	};
 
   var message;
 
