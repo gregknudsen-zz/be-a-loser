@@ -74,12 +74,27 @@ a, a:link {
     text-shadow: 1px 1px #000;
 }
 
-/* Caoursel */
+/* Videos */
 
+.video-wrapper {
+	background-color: #666971;
+}
 
-.intro-video {
+.video {
 	margin: 10px;
 	height: 390px;
+}
+
+.series-title {
+	/* height: 60px; */
+	text-align: center;
+	text-shadow: 1px 1px 2px #000;
+}
+
+.series-title h1 {
+	padding: 1em 0;
+	margin-top: 0;
+	color: #fff;
 }
 
 iframe {
@@ -176,6 +191,17 @@ section:nth-child(2n-1) {
       flex-wrap: wrap;
 }
 
+/* Videos */
+
+iframe {
+	width: 100%;
+}
+
+.h3 {
+	text-align: center;
+	margin-bottom: 10%;
+	font-size: 1.3em;
+}
 
 
 /* Footer */
@@ -194,7 +220,7 @@ section:nth-child(2n-1) {
 @media screen 
 	and (min-width: 1024px) { 
 
-	.intro-video {
+	.video {
 		width: 100%;
 		display: -ms-flexbox;
 		display: flex;
@@ -231,6 +257,20 @@ section:nth-child(2n-1) {
 	#social-media {
 		margin-top: 4%;
     height: 400px;
+	}
+
+	.videos {
+		width: ;
+	}
+
+	.h3 {
+		width: 25%;
+		flex-direction: column;
+		justify-content: space-between;
+	}	
+
+	.h3 p {
+		padding: 0.1em;
 	}
 
 
