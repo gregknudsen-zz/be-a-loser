@@ -5,7 +5,7 @@
 		<h1>Type 2 Diabetes Playlist</h1>
 	</div>
 
-	<div class="intro-video">
+	<div class="video">
 		<div id="t2d-video"></div>
 	</div>
 

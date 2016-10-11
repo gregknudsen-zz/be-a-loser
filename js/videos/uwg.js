@@ -8,17 +8,34 @@
   // YouTube player after the API code downloads.
 
   var player;
-  var understandingWeightGain = 'PL4Q5STdNYMWqx7e8eHVMzzbmN6Hglx6o2'
+  var uwg = 'PL4Q5STdNYMWqx7e8eHVMzzbmN6Hglx6o2'
   function onYouTubePlayerAPIReady() {
-    player = new YT.Player('uwg-player', {
+    player = new YT.Player('uwg-video', {
       height: '390',
       width: '640',
       playerVars: {
-        autoplay: 1,
+        // autoplay: 1,
         listType: 'playlist',
-        list: understandingWeightGain
+        list: uwg
       }
     });
   }
+
+  var Notify = (function(){
+
+  function init(){
+    message = "You are able to navigate videos by using the dropdown menu in the upper left hand corner of the screen. Enjoy!"  
+    confirm(message);
+  }
+
+  var message;
+
+  return {
+    init: init
+  }
+
+})();
+
+$(document).ready(Notify.init);
 
 

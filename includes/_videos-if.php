@@ -5,7 +5,7 @@
 		<h1>Intermittent Fasting Playlist</h1>
 	</div>
 	
-	<div class="intro-video">
+	<div class="video">
 		<div id="if-video"></div>
 	</div>
 

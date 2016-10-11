@@ -1,4 +1,4 @@
-<div class="intro-video">
+<div class="video">
    
    <div id="ytplayer"></div>
    

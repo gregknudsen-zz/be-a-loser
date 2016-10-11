@@ -15,12 +15,30 @@
       width: '640',
       // videoId: 'ULi3tQsAoqs',
       playerVars: {
-        autoplay: 1,
+        // autoplay: 1,
         listType: 'playlist',
         list: IF
       }
     });
   }
+
+
+  var Notify = (function(){
+
+  function init(){
+    message = "You are able to navigate videos by using the dropdown menu in the upper left hand corner of the screen. Enjoy!"  
+    confirm(message);
+  }
+
+  var message;
+
+  return {
+    init: init
+  }
+
+})();
+
+$(document).ready(Notify.init);
 
   
 

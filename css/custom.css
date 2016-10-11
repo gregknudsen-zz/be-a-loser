@@ -80,7 +80,7 @@ a, a:link {
 	background-color: #666971;
 }
 
-.intro-video {
+.video {
 	margin: 10px;
 	height: 390px;
 }
@@ -220,7 +220,7 @@ iframe {
 @media screen 
 	and (min-width: 1024px) { 
 
-	.intro-video {
+	.video {
 		width: 100%;
 		display: -ms-flexbox;
 		display: flex;

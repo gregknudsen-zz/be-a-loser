@@ -1,16 +1,14 @@
- <div class="line">
-  <div class="box">
-        
-        <!-- Videos -->
-	      <div class="videos border-top">
-	      <div class="h3">
-	      	<h3>Understanding Weight Gain</h3>
-	      </div>
-	      <!-- <p>Use the controls in the upper left hand corner of the display 
-	      to navigate your way around the videos.</p> -->
-	      	<div id="uwg-player"></div>
-				</div>
+ <div class="video-wrapper line">
 
-		</div>
+	<!-- Videos -->
+	<div class="series-title">
+		<h1>Understanding Weight Gain Playlist</h1>
 	</div>
+
+	<div class="video">
+		<div id="uwg-video"></div>
+	</div>
+
+<script type="text/javascript" src="js/videos/uwg.js"></script>
+</div>
 

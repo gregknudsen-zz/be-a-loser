@@ -17,7 +17,7 @@
       <!-- FOOTER -->
       <?php include "./includes/footer.php"; ?>
 
-      <script type="text/javascript" src="js/videos/uwg.js"></script>  
+      <!-- <script type="text/javascript" src="js/videos/uwg.js"></script>   -->
       
    </body>
 </html>
