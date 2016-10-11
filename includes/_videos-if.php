@@ -2,7 +2,7 @@
 <div class="video-wrapper line">
 	
 	<div class="series-title">
-		<h1>Intermittent Fasting</h1>
+		<h1>Intermittent Fasting Playlist</h1>
 	</div>
 	
 	<div class="intro-video">
