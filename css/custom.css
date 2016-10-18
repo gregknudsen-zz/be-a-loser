@@ -16,6 +16,11 @@ p, nav, .aside-nav {
 	font-size: 1.1em;
 }
 
+
+ul {
+	/* list-style: none; */
+}
+
 a, a:link {
 	color: red;
 }
@@ -203,6 +208,32 @@ iframe {
 	font-size: 1.3em;
 }
 
+/* Recipes */
+
+.recipe-list {
+  min-height: 200px;
+  background: #fff;
+  padding: 2em;
+}
+
+.recipe-list ul li {
+	padding: 1em;
+}
+
+.recipe-list h1 {
+	text-align: center;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.recipe-list a, 
+.recipe-list a:link {
+	color: #000;
+}
+
+.recipe-list a:visited {
+	color: #8c3535;
+}
 
 /* Footer */
 
