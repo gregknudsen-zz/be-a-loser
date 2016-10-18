@@ -9,11 +9,23 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway'
 }
 
-p, nav, .aside-nav {
+p, nav, .aside-nav, table {
 	color: #633443;
 	font-family: 'Raleway';
 	line-height: 1.3em;
 	font-size: 1.1em;
+}
+
+th {
+	text-align: center;
+}
+
+td {
+	text-align: left;
+}
+
+ul {
+	list-style: none;
 }
 
 a, a:link {
@@ -203,6 +215,16 @@ iframe {
 	font-size: 1.3em;
 }
 
+/* Recipes */
+
+.recipe-list {
+  min-height: 200px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 
 /* Footer */
 

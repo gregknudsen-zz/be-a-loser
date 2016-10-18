@@ -12,7 +12,7 @@
       <?php include "./includes/navigation.php"; ?>      
       
       <!-- Coming Soon -->
-      <?php include "./includes/coming-soon.php"; ?>      
+      <?php include "./includes/_recipes.php"; ?>      
       
       <!-- FOOTER -->
       <?php include "./includes/footer.php"; ?>
