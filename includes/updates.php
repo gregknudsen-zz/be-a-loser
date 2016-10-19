@@ -5,7 +5,20 @@
         <article class="s-12 l-7">
            <h1>The Latest</h1>
            <div class="scrollable padding">
-              <div id="update-content">              
+              <div id="update-content">
+                <section>
+                  <p>10.15.2016</p>
+                  <h4>New Video Series!</h4> 
+                  <p>Be sure to watch the first video in our Cooking series,<br> Bone Broth!</p>
+                  <p>Watch it <a href="https://youtu.be/mEqACU1TMu8">HERE</a>! More to follow soon!</p>
+                </section>
+                <section>
+                  <p>10.13.2016</p>
+                  <h4>New Videos Uploaded</h4> 
+                  <p>We've added several new videos! Check out LCHF and Keto Myths in our LCHF series!</p>
+                  <p>Watch Part 1 <a href="https://youtu.be/AZ9etsqaenY">HERE</a> <br>and <br>
+                  Part 2 <a href="https://youtu.be/yRhmiJgLSp0">HERE</a>!</p>
+                </section>
                 <section>
                   <p>9.23.2016</p>
                   <h4>New Video Uploaded</h4> 
