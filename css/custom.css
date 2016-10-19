@@ -229,7 +229,7 @@ iframe {
 
 .recipe-list a, 
 .recipe-list a:link {
-	color: #000;
+	color: red;
 }
 
 .recipe-list a:visited {
