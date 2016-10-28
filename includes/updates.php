@@ -3,10 +3,15 @@
      <div class="margin">
         <!-- Updates -->
         <article class="s-12 l-7">
-           <h1>The Latest</h1>
+           <h1>Tweets</h1>
+           <h4>Be sure to follow us!</h4>
            <div class="scrollable padding">
               <div id="update-content">
-                <section>
+              <section>
+                <a class="twitter-timeline" href="https://twitter.com/greg99799">Tweets by BeALoserToday</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </section>
+
+                <!-- <section>
                   <p>10.15.2016</p>
                   <h4>New Video Series!</h4> 
                   <p>Be sure to watch the first video in our Cooking series,<br> Bone Broth!</p>
@@ -71,9 +76,9 @@
                 	<h3>Fasting playlist created!</h3> 
                   <p>Now you can have easy access to all of our videos that only pertain to fasting. Enjoy!</p>
                   <p>See it <a href="https://www.youtube.com/playlist?list=PL4Q5STdNYMWpUyn3pkZKWO6Edqiq1J5z8" target="_blank">HERE</a>!</p>
-                </section>
+                </section> -->
 
-                <p>Check back for more updates!</p>
+                <!-- <p>Check back for more updates!</p> -->
               </div>
            </div>
         </article>
