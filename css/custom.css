@@ -155,7 +155,7 @@ section:nth-child(2n-1) {
 }
 
 .scrollable {
-	max-height: 250px;
+	min-height: 350px;
   overflow-y: scroll;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,a0d8ef+100;Blue+3D+%2318 */
 	background: rgb(254,255,255); /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
@@ -284,6 +284,10 @@ iframe {
 
 	.scrollable {
 		max-height: 400px;
+	}
+
+	.tweet-container {
+		/* width: 50%; */
 	}
 
 	#social-media {

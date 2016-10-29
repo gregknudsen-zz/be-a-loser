@@ -1,14 +1,12 @@
 <div class="line">
-  <div class="box border-bottom">
+  <div class="box border-bottom border-top">
      <div class="margin">
         <!-- Updates -->
-        <article class="s-12 l-7">
-           <h1>Tweets</h1>
-           <h4>Be sure to follow us!</h4>
+        <article class="l-7 s-12 tweet-container">
            <div class="scrollable padding">
-              <div id="update-content">
+              <!-- <div id="update-content"> -->
               <section>
-                <a class="twitter-timeline" href="https://twitter.com/greg99799">Tweets by BeALoserToday</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a class="twitter-timeline" href="https://twitter.com/bealosertoday"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
               </section>
 
                 <!-- <section>
@@ -79,13 +77,13 @@
                 </section> -->
 
                 <!-- <p>Check back for more updates!</p> -->
-              </div>
+              <!-- </div> -->
            </div>
         </article>
       <!-- Social Media -->
       <div id="social-media" class="s-12 l-5">
-         <a href="https://www.facebook.com/bealosertoday/?ref=aymt_homepage_panel" target="_blank"><img src="img/loser-facebook.jpg" alt=""></a>
-         <a href="https://www.youtube.com/channel/UCR2z_y7rQO3CMb3sQe9a48Q" target="_blank"><img src="img/loser-youtube.jpg" alt=""></a>
+         <p>Be sure to <a href="https://www.facebook.com/bealosertoday/?ref=aymt_homepage_panel" target="_blank">LIKE </a>us on Facebook</p>
+         <p><a href="https://www.youtube.com/channel/UCR2z_y7rQO3CMb3sQe9a48Q" target="_blank"></a></p>
       </div>
 
     </div>
