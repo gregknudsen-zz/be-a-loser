@@ -265,7 +265,7 @@ iframe {
 		margin: 1em 0;
 	}
 
-	iframe {
+	.video > iframe {
 		max-width: 748px;
 		box-shadow: 0 0 10px 1px #7db2d9;
 	}

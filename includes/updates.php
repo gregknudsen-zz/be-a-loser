@@ -5,9 +5,9 @@
         <article class="l-7 s-12 tweet-container">
            <div class="scrollable padding">
               <!-- <div id="update-content"> -->
-              <section>
+              <!-- <section> -->
                 <a class="twitter-timeline" href="https://twitter.com/bealosertoday"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-              </section>
+              <!-- </section> -->
 
                 <!-- <section>
                   <p>10.15.2016</p>
