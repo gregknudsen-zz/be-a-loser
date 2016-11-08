@@ -165,6 +165,10 @@ section:nth-child(2n-1) {
   box-shadow: inset 1px 1px 6px #6C809A;
 }
 
+.fb-like {
+	border: none;
+}
+
 #ny-times {
 	font-family: "Georgia";
 	font-weight: bold;

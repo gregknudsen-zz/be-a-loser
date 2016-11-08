@@ -21,7 +21,8 @@
             </p>
             <br>
             <p>
-               <a href="https://www.youtube.com/channel/UCR2z_y7rQO3CMb3sQe9a48Q/sub_confirmation=1" target="_blank"><span class="g-ytsubscribe" data-channelid="UCR2z_y7rQO3CMb3sQe9a48Q" data-layout="default" data-count="hidden"></span></a>
+               <a href="https://www.youtube.com/channel/UCR2z_y7rQO3CMb3sQe9a48Q/sub_confirmation=1" target="_blank"><span class="g-ytsubscribe" data-channelid="UCR2z_y7rQO3CMb3sQe9a48Q" data-layout="default" data-count="hidden"></span><a href="https://twitter.com/bealosertoday" class="twitter-follow-button" data-show-count="false">Follow @BeA LoserToday</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></a>
+               <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fbealosertoday%2F&width=112&layout=button_count&action=like&size=small&show_faces=false&share=true&height=46&appId" width="112" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
             </p>
             </p>
             <br>
