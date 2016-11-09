@@ -28,7 +28,7 @@
                   <!-- Facebook -->
                   <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fbealosertoday%2F&width=112&layout=button_count&action=like&size=small&show_faces=false&share=true&height=46&appId" width="112" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
             </div>
-            <br>
+            
             <p>Thank you for joining us on our journey.</p>
             <br>
             <p>John</p>     
