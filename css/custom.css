@@ -137,6 +137,15 @@ blockquote p:after {
 	content: '”';
 }
 
+.social-media {
+	display: flex;
+	flex-direction: column;
+}
+
+.social-media * {
+	margin: 1em 0;
+}
+
 /* Updates */
 
 section {
@@ -155,14 +164,18 @@ section:nth-child(2n-1) {
 }
 
 .scrollable {
-	max-height: 250px;
+	height: 350px;
   overflow-y: scroll;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,a0d8ef+100;Blue+3D+%2318 */
-	background: rgb(254,255,255); /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  rgba(254,255,255,1) 0%,rgba(221,241,249,1) 60%,rgba(160,216,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
+	background: rgb(221,241,249); /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+	/* background: linear-gradient(to bottom,  rgba(254,255,255,1) 0%,rgba(221,241,249,1) 60%,rgba(160,216,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */ 
 
   box-shadow: inset 1px 1px 6px #6C809A;
+}
+
+.fb-like {
+	border: none;
 }
 
 #ny-times {
@@ -170,7 +183,6 @@ section:nth-child(2n-1) {
 	font-weight: bold;
 }
 
-#social-media,
 .amazon {
 	margin-top: 5%;
 	display: -ms-flexbox;
@@ -261,7 +273,7 @@ iframe {
 		margin: 1em 0;
 	}
 
-	iframe {
+	.video > iframe {
 		max-width: 748px;
 		box-shadow: 0 0 10px 1px #7db2d9;
 	}
@@ -283,12 +295,17 @@ iframe {
 	}
 
 	.scrollable {
-		max-height: 400px;
+		max-height: 500px;
+		width: 500px;
 	}
 
-	#social-media {
-		margin-top: 4%;
-    height: 400px;
+	.tweet-container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.social-media {
+		display: flex;
 	}
 
 	.videos {

@@ -9,10 +9,10 @@
       <!-- <section> -->
          <!-- CAROUSEL -->  
       <?php include "includes/carousel.php"; ?>
-         <!-- UPDATES & LOGO -->
-      <?php include "includes/updates.php"; ?>   
          <!-- ABOUT -->      
       <?php include "includes/about.php"; ?>   
+         <!-- UPDATES & LOGO -->
+      <?php include "includes/updates.php"; ?>   
       <!-- FOOTER -->
       <?php include "includes/footer.php"; ?>
 
