@@ -137,6 +137,15 @@ blockquote p:after {
 	content: '”';
 }
 
+.social-media {
+	display: flex;
+	flex-direction: column;
+}
+
+.social-media * {
+	margin: 1em 0;
+}
+
 /* Updates */
 
 section {
@@ -174,7 +183,6 @@ section:nth-child(2n-1) {
 	font-weight: bold;
 }
 
-#social-media,
 .amazon {
 	margin-top: 5%;
 	display: -ms-flexbox;
@@ -294,9 +302,8 @@ iframe {
 		/* width: 50%; */
 	}
 
-	#social-media {
-		margin-top: 4%;
-    height: 400px;
+	.social-media {
+		display: flex;
 	}
 
 	.videos {
