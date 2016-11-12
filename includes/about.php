@@ -17,9 +17,12 @@
             </p>
             <br>
             <p>
-               The battle against obesity and diabetes (a fully reversible disease) is failing because of ignorance and greed, and I want to turn the tide. Together we can beat this global epidemic, so hit the button below to subscribe to our channel and help us spread the word.
+               The battle against obesity and diabetes (a fully reversible disease) is failing because of ignorance and greed, and I want to turn the tide. Together we can beat this global epidemic, so hit any of the buttons below to either subscribe, follow, or like to help us spread the word.
             </p>
             <br>
+            <p>Thank you for joining us on our journey.</p>
+            <br>
+            <p>John</p>     
             <div class="social-media">
                   <!-- Youtube -->
                   <a href="https://www.youtube.com/channel/UCR2z_y7rQO3CMb3sQe9a48Q/sub_confirmation=1" target="_blank"><span class="g-ytsubscribe" data-channelid="UCR2z_y7rQO3CMb3sQe9a48Q" data-layout="dbrefault" data-count="hidden"></span></a>
@@ -29,9 +32,6 @@
                   <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fbealosertoday%2F&width=112&layout=button_count&action=like&size=small&show_faces=false&share=true&height=46&appId" width="112" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
             </div>
             
-            <p>Thank you for joining us on our journey.</p>
-            <br>
-            <p>John</p>     
             </div>
          </div>
       </div>
