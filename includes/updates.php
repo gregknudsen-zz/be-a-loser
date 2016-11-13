@@ -3,10 +3,19 @@
      <div class="margin">
         <!-- Updates -->
         <article class="s-12 tweet-container">
-          
-           <div class="scrollable padding">
-                <a class="twitter-timeline" href="https://twitter.com/bealosertoday"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-           </div>
+        <div class="resources scrollable">
+          <h4>Here are some of our favorite sites we look to for guidance.</h4>
+          <ul>
+            <li><a href="https://intensivedietarymanagement.com/">Intensive Dietary Management</a></li>
+            <li><a href="http://www.ketogenic-diet-resource.com/">Ketogenic Diet Resource</a></li>
+            <li><a href="http://www.ruled.me/">Ruled.me</a> (Ketogenic Diet Information)</li>
+            <li><a href="http://www.dietdoctor.com/">Diet Doctor</a></li>
+          </ul>
+        </div>
+
+         <div class="scrollable padding">
+              <a class="twitter-timeline" href="https://twitter.com/bealosertoday"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+         </div>
         </article>
       <!-- Social Media -->
       <!-- <div id="social-media" class="s-12 l-5">

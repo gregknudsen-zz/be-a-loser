@@ -178,10 +178,24 @@ section:nth-child(2n-1) {
 	border: none;
 }
 
-#ny-times {
+.resources {
+	padding: 1em;
+}
+
+.resources ul {
+	line-height: 2em;
+}
+
+.resources ul li a{
+	text-decoration: underline;
+	color: #000;
+	font-family: 'Raleway';
+}
+
+/* #ny-times {
 	font-family: "Georgia";
 	font-weight: bold;
-}
+} */
 
 .amazon {
 	margin-top: 5%;
@@ -299,9 +313,13 @@ iframe {
 		width: 300px;
 	}
 
+	.resources {
+		min-width: 500px;
+	}
+
 	.tweet-container {
 		display: flex;
-		justify-content: flex-end;
+		justify-content: space-around;
 	}
 
 	.social-media {
