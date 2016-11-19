@@ -217,14 +217,15 @@ iframe {
 }
 
 .recipe-list ul li {
-	padding: 1em;
+	/* padding: 1em; */
 }
 
 .recipe-list h1 {
-	text-align: center;
+	/* text-align: center; */
 	font-size: 3em;
 	font-weight: bold;
 	color: #000;
+	margin-bottom: 1em;
 }
 
 .recipe-list a, 
@@ -234,6 +235,11 @@ iframe {
 
 .recipe-list a:visited {
 	color: #8c3535;
+}
+
+.recipe-list > p {
+	margin-top: 5em;
+	font-size: 0.9em;
 }
 
 /* Footer */
