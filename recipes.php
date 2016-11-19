@@ -11,7 +11,7 @@
       <!-- TOP NAV -->  
       <?php include "./includes/navigation.php"; ?>      
       
-      <!-- Coming Soon -->
+      <!-- Recipes -->
       <?php include "./includes/_recipes.php"; ?>      
       
       <!-- FOOTER -->
