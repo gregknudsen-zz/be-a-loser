@@ -14,7 +14,8 @@
         </div>
 
          <div class="scrollable padding">
-              <a class="twitter-timeline" href="https://twitter.com/bealosertoday"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a class="twitter-timeline" href="https://twitter.com/bealosertoday"></a> 
+              <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
          </div>
         </article>
       <!-- Social Media -->
