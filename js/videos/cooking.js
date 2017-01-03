@@ -8,7 +8,7 @@
   // YouTube player after the API code downloads.
 
   var player;
-  var cooking = 'PL4Q5STdNYMWptVJyTfmisNo_s-PCpIKB-'
+  var cooking = 'PL4Q5STdNYMWptVJyTfmisNo_s-PCpIKB-';
   function onYouTubePlayerAPIReady() {
     player1 = new YT.Player('cooking-video', {
       height: '390',

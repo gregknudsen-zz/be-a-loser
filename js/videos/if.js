@@ -8,14 +8,12 @@
   // YouTube player after the API code downloads.
 
   var player;
-  var IF = 'PL4Q5STdNYMWpUyn3pkZKWO6Edqiq1J5z8'
-  function onYouTubePlayerAPIReady() {
+  var IF = 'PL4Q5STdNYMWpUyn3pkZKWO6Edqiq1J5z8';
+  onYouTubePlayerAPIReady => {
     player1 = new YT.Player('if-video', {
       height: '390',
       width: '640',
-      // videoId: 'ULi3tQsAoqs',
       playerVars: {
-        // autoplay: 1,
         listType: 'playlist',
         list: IF
       }
