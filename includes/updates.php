@@ -8,6 +8,11 @@
           <ul>
             <li><a href="https://intensivedietarymanagement.com/">Intensive Dietary Management</a></li>
             <li><a href="http://www.ketogenic-diet-resource.com/">Ketogenic Diet Resource</a></li>
+              <ul>
+                <li><a href="http://www.ketogenic-diet-resource.com/low-carb-food-list.html">Low Carb Food List</a></li>
+                <li><a href="http://www.ketogenic-diet-resource.com/ketogenic-diet-menu.html">Sample LCHF Meal Plan</a></li>
+                <li><a href="http://www.ketogenic-diet-resource.com/low-carb-grocery-list.html">LCHF Grocery List</a></li>
+              </ul>
             <li><a href="http://www.ruled.me/">Ruled.me</a> (Ketogenic Diet Information)</li>
             <li><a href="http://www.dietdoctor.com/">Diet Doctor</a></li>
           </ul>
