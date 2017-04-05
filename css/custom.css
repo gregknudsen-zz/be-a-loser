@@ -4,9 +4,8 @@ body {
 	background: #6C809A;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, blockquote {
 	color: red;
-	font-family: 'Raleway'
 }
 
 p, nav, .aside-nav {
@@ -38,6 +37,10 @@ a, a:link {
 #header {
 	background: #FFEEDB;
 	/* border-radius: 1em 1em 0 0; */
+}
+
+#block {
+	font-family: 'Raleway';
 }
 
 

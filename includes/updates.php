@@ -1,6 +1,13 @@
 <div class="line">
   <div class="box border-bottom border-top">
      <div class="margin">
+     <div>
+      <h1>***ALERT - PLEASE READ***</h1>
+      <p>Here is a message we received from Google pertaining to our intro video:</p>
+      <blockquote id="block">
+        "The video talks about reversing type 2 diabetes and losing weight. I noticed that there are few claims which talks about curing or reversing health conditions like obesity, diabetes etc. I understand that there might be a cure of these health concerns as per you, however, as per the above policy unfortunately we do not allow such claims since medically/scientifically we do not have any proofs of such cures."
+      </blockquote>
+     </div>
         <!-- Updates -->
         <article class="s-12 tweet-container">
         <div class="resources scrollable">
