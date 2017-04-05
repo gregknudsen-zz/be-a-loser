@@ -4,12 +4,12 @@ body {
 	background: #6C809A;
 }
 
-h1, h2, h3, h4, h5, h6, blockquote {
+h1, h2, h3, h4, h5, h6 {
 	color: red;
 }
 
-p, nav, .aside-nav {
-	color: #633443;
+p, nav, .aside-nav, blockquote {
+	/* color: #633443; */
 	font-family: 'Raleway';
 	line-height: 1.3em;
 	font-size: 1.1em;
@@ -32,6 +32,10 @@ a, a:link {
 	border-bottom: 1px solid #000;
 }
 
+section blockquote {
+	font-family: 'Raleway';
+}
+
 /* Header */
 
 #header {
@@ -39,9 +43,6 @@ a, a:link {
 	/* border-radius: 1em 1em 0 0; */
 }
 
-#block {
-	font-family: 'Raleway';
-}
 
 
 
