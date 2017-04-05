@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, nav, .aside-nav, blockquote {
-	/* color: #633443; */
+	color: #633443;
 	font-family: 'Raleway';
 	line-height: 1.3em;
 	font-size: 1.1em;
@@ -32,7 +32,7 @@ a, a:link {
 	border-bottom: 1px solid #000;
 }
 
-section blockquote {
+#google {
 	font-family: 'Raleway';
 }
 
