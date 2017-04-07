@@ -6,10 +6,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	color: red;
-	font-family: 'Raleway'
 }
 
-p, nav, .aside-nav {
+p, nav, .aside-nav, blockquote {
 	color: #633443;
 	font-family: 'Raleway';
 	line-height: 1.3em;
@@ -33,12 +32,17 @@ a, a:link {
 	border-bottom: 1px solid #000;
 }
 
+#google {
+	font-family: 'Raleway';
+}
+
 /* Header */
 
 #header {
 	background: #FFEEDB;
 	/* border-radius: 1em 1em 0 0; */
 }
+
 
 
 
