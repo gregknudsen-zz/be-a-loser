@@ -6,13 +6,13 @@
       <h3>***ALERT - PLEASE READ***</h3>
       <p>Here is a message we received from Google pertaining to our intro video:</p>
       <br><hr>
-      <blockquote id="google">
+      <blockquote class="google">
           "The video talks about reversing type 2 diabetes and losing weight. I noticed that there are few claims which talks about curing or reversing health conditions like obesity, diabetes etc. I understand that there might be a cure of these health concerns as per you, however, as per the above policy unfortunately we do not allow such claims since medically/scientifically we do not have any proofs of such cures."
       </blockquote>
       <hr><br>
       <p>And here is our response:</p>
       <br><hr>
-      <blockquote style="font-family:'Raleway'">
+      <blockquote class="google">
         "Unfortunately Google is another in a long line of entities that do not understand Type 2 Diabetes and Obesity. This makes them part of the problem. We are not willing to alter our claims that people can reverse and cure T2D as well as completely eradicate obesity. If this means that we lose the exposure that Google AdWords was getting us, then so be it. We would put out a call to action to all of our subscribers to tell as many people as you can to watch our videos and subscribe to our channel to get the information they need to fight the astounding ignorance of the world in which we live. Many thanks and let's all keep being Losers!"
 
       </blockquote> 
